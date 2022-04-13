@@ -41,13 +41,15 @@ class User(AbstractUser):
         max_length=255,
         unique=True,
     )
-    first_name = models.CharField(
+    firstname = models.CharField(
         _('Имя'),
-        max_length=150
+        max_length=150,
+        null=True
     )
-    last_name = models.CharField(
+    lastname = models.CharField(
         _('Фамилия'),
-        max_length=150
+        max_length=150,
+        null=True
     )
     phone_number = PhoneNumberField(verbose_name=_('Номер телефона'))
     avatar = models.ImageField(
