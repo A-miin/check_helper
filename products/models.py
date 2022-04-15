@@ -5,13 +5,14 @@ from uuid import uuid4
 
 class ProductCategory(models.Model):
     name = models.CharField(
+        verbose_name=_('Название'),
         null=True,
-        verbose_name=_('Название')
+        max_length=128,
     )
     photo = models.ImageField(
+        verbose_name=_('Фото'),
         upload_to='product_category',
         blank=True,
-        verbose_name=_('Фото')
     )
 
     class Meta:
@@ -33,27 +34,29 @@ class Product(models.Model):
 
     uuid = models.IntegerField(
         verbose_name=_('uuid'),
-        max_length=6, unique=True, default=get_uuid)
+        unique=True,
+        default=get_uuid,
+    )
     name = models.CharField(
         verbose_name=_('Название'),
-        max_length=256
+        max_length=256,
     )
     photo = models.ImageField(
         verbose_name=_('Фото'),
         upload_to='product',
-        blank=True
+        blank=True,
     )
     qr = models.IntegerField(
-        verbose_name=_('QR код')
+        verbose_name=_('QR код'),
     )
     description = models.CharField(
         verbose_name=_('Описание'),
         max_length=1024,
-        blank=True
+        blank=True,
     )
     price = models.PositiveIntegerField(
         verbose_name=_('Средняя цена'),
-        default=0
+        default=0,
     )
     category = models.ForeignKey(
         'products.ProductCategory',

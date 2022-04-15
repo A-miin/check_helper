@@ -58,6 +58,8 @@ INSTALLED_APPS = [
 
     #custom apps
     'accounts',
+    'products',
+    'disease_recommendations',
 
     #lib apps
     'rest_framework',
