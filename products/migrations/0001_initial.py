@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
             name='Product',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('uuid', models.IntegerField(default=products.models.Product.get_uuid, max_length=6, unique=True, verbose_name='uuid')),
+                ('uuid', models.IntegerField(max_length=6, unique=True, verbose_name='uuid')),
                 ('name', models.CharField(max_length=256, verbose_name='Название')),
                 ('photo', models.ImageField(blank=True, upload_to='product', verbose_name='Фото')),
                 ('qr', models.IntegerField(verbose_name='QR код')),

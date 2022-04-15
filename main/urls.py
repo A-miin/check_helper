@@ -41,6 +41,7 @@ api_v1 = [
 
 urlpatterns = [
     path('jet/', include('jet.urls', 'jet')),
+    url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
     url(r'^admin/', admin.site.urls),
     path('api/v1/', include(api_v1)),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='swagger'),

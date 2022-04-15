@@ -25,17 +25,11 @@ class ProductCategory(models.Model):
 
 class Product(models.Model):
 
-    def get_uuid(self):
-        uuid = uuid4()
-        if not Product.objects.filter(uuid=uuid).exists():
-            return uuid
-        else:
-            return self.get_uuid()
-
-    uuid = models.IntegerField(
+    uuid = models.CharField(
         verbose_name=_('uuid'),
         unique=True,
-        default=get_uuid,
+        blank=True,
+        max_length=64,
     )
     name = models.CharField(
         verbose_name=_('Название'),
@@ -48,6 +42,7 @@ class Product(models.Model):
     )
     qr = models.IntegerField(
         verbose_name=_('QR код'),
+        blank=True,
     )
     description = models.CharField(
         verbose_name=_('Описание'),
@@ -70,3 +65,11 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+    def save(self, *args, **kwargs):
+        while True:
+            uuid = uuid4()
+            if not Product.objects.filter(uuid=uuid).exists():
+                self.uuid = uuid
+                break
+        super(Product, self).save(*args, **kwargs)

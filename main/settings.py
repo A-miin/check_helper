@@ -13,6 +13,7 @@ from datetime import timedelta
 from pathlib import Path
 import environ
 import os
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -48,6 +49,7 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 # Application definition
 
 INSTALLED_APPS = [
+    'jet.dashboard',
     'jet',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -173,3 +175,12 @@ SIMPLE_JWT = {
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
 }
+
+JET_SIDE_MENU_COMPACT = True
+JET_SIDE_MENU_ITEMS = [
+    {'label': _('Пользователи'), 'app_label': 'accounts','items': [], 'url': {"type": "reverse", "name": "admin:accounts_user_changelist"}, },
+    {'label': _('Категории продуктов'), 'app_label': 'products', 'items': [], 'url': {"type": "reverse", "name": "admin:products_productcategory_changelist"}, },
+    {'label': _('Продукты'), 'app_label': 'products', 'items': [], 'url': {"type": "reverse", "name": "admin:products_product_changelist"}, },
+    #e {'label': _('Аймактар'), 'app_label': 'webapp', 'disease_recommendations': [], 'url': {"type": "reverse", "name": "admin:disease_recommendations_region_changelist"}, },
+    # {'label': _('Айылдар'), 'app_label': 'webapp', 'items': [], 'url': {"type": "reverse", "name": "admin:webapp_village_changelist"}, },
+]

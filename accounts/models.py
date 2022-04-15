@@ -67,6 +67,8 @@ class User(AbstractUser):
 
     class Meta:
         ordering = ('is_activated',)
+        verbose_name = _('Пользователь')
+        verbose_name_plural = _('Пользователи')
 
     def __str__(self):
         return self.email
