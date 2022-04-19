@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 
-class DiseaseCategory(models.Model):
+class DiseaseTag(models.Model):
     name = models.CharField(
         verbose_name=_('Название'),
         max_length=128,
@@ -14,8 +14,8 @@ class DiseaseCategory(models.Model):
     )
 
     class Meta:
-        verbose_name = _('Категория болезней')
-        verbose_name_plural = _('Категории болезней')
+        verbose_name = _('Тэг болезней')
+        verbose_name_plural = _('Тэги болезней')
 
     def __str__(self):
         return self.name
@@ -31,9 +31,8 @@ class Disease(models.Model):
         max_length=1024,
         blank=True,
     )
-    category = models.ForeignKey(
-        'disease_recommendations.DiseaseCategory',
-        on_delete=models.CASCADE,
+    tags = models.ManyToManyField(
+        'disease_recommendations.DiseaseTag',
         related_name='diseases',
     )
 
