@@ -59,6 +59,18 @@ class Recommendation(models.Model):
         verbose_name=_('Процент противопоказаний'),
         default=0,
     )
+    author = models.ForeignKey(
+        'accounts.User',
+        on_delete=models.CASCADE,
+        related_name='recommendations',
+        blank=True,
+        null=True,
+    )
+    description = models.CharField(
+        verbose_name=_('Описание'),
+        max_length=2048,
+        blank=True,
+    )
 
     class Meta:
         verbose_name = _('Рекомендация')

@@ -57,6 +57,11 @@ class User(AbstractUser):
         verbose_name=_('Аватар'),
         blank=True
     )
+    disease = models.ManyToManyField(
+        'disease_recommendations.Disease',
+        related_name='users',
+        blank=True,
+    )
     is_activated = models.BooleanField(default=False)
     activation_date = models.DateTimeField(blank=True, null=True)
 

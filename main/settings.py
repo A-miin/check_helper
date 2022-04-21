@@ -181,7 +181,7 @@ JET_SIDE_MENU_ITEMS = [
     {'label': _('Пользователи'), 'app_label': 'accounts','items': [], 'url': {"type": "reverse", "name": "admin:accounts_user_changelist"}, },
     {'label': _('Категории продуктов'), 'app_label': 'products', 'items': [], 'url': {"type": "reverse", "name": "admin:products_productcategory_changelist"}, },
     {'label': _('Продукты'), 'app_label': 'products', 'items': [], 'url': {"type": "reverse", "name": "admin:products_product_changelist"}, },
-    {'label': _('Категории болезней'), 'app_label': 'disease_recommendations', 'items': [], 'url': {"type": "reverse", "name": "admin:disease_recommendations_diseasecategory_changelist"}, },
+    {'label': _('Тэги болезней'), 'app_label': 'disease_recommendations', 'items': [], 'url': {"type": "reverse", "name": "admin:disease_recommendations_diseasetag_changelist"}, },
     {'label': _('Болезни'), 'app_label': 'disease_recommendations', 'items': [], 'url': {"type": "reverse", "name": "admin:disease_recommendations_disease_changelist"}, },
     {'label': _('Рекомендации'), 'app_label': 'disease_recommendations', 'items': [], 'url': {"type": "reverse", "name": "admin:disease_recommendations_recommendation_changelist"}, },
 ]
