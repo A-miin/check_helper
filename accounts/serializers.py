@@ -3,9 +3,22 @@ from django.contrib.auth import get_user_model
 from accounts.models import User
 from django.contrib.auth.hashers import make_password
 import django.contrib.auth.password_validation as validators
+from disease_recommendations.models import Disease
+
+
+class UserDiseasesSerializer(serializers.ModelSerializer):
+    def get_queryset(self):
+        user = self.context['request'].user
+        queryset = user.diseases.objects.all()
+        return queryset
+
+    class Meta:
+        model = Disease
+        fields = ('__all__')
 
 
 class UserSerializer(serializers.ModelSerializer):
+    diseases = UserDiseasesSerializer(many=True)
 
     class Meta:
         model = get_user_model()
@@ -17,6 +30,7 @@ class UserSerializer(serializers.ModelSerializer):
             'phone_number',
             'avatar',
             'password',
+            'diseases',
         )
 
     def validate(self, attrs):
@@ -25,3 +39,7 @@ class UserSerializer(serializers.ModelSerializer):
         validators.validate_password(password=password, user=user)
         attrs['password'] = make_password(password)
         return super(UserSerializer, self).validate(attrs)
+
+
+class AddDeleteDiseaseUserSerializer(serializers.Serializer):
+    ids = serializers.PrimaryKeyRelatedField(many=True, queryset=Disease.objects.all())

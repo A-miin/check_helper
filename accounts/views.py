@@ -1,8 +1,9 @@
 from django.contrib.auth import get_user_model
 from django.utils.translation import gettext_lazy as _
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.views import APIView
 
-from accounts.serializers import UserSerializer
+from accounts.serializers import UserSerializer, AddDeleteDiseaseUserSerializer
 from rest_framework import status
 from rest_framework.response import Response
 
@@ -31,3 +32,19 @@ class RetrieveUpdateDestroyUsersAPIView(RetrieveUpdateDestroyAPIView):
             return user
         else:
             return self.request.user
+
+
+class AddDeleteDiseaseAPIView(APIView):
+    def post(self, request, *args, **kwargs):
+        serializer = AddDeleteDiseaseUserSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = request.user
+        user.diseases.add(*serializer.validated_data['ids'])
+        return Response({'message': _('Болезни добавлены')}, status=200)
+
+    def delete(self, request, *args, **kwargs):
+        serializer = AddDeleteDiseaseUserSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = request.user
+        user.diseases.remove(*serializer.validated_data['ids'])
+        return Response({'message': _('Болезни удалены')}, status=204)

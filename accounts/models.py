@@ -57,7 +57,7 @@ class User(AbstractUser):
         verbose_name=_('Аватар'),
         blank=True
     )
-    disease = models.ManyToManyField(
+    diseases = models.ManyToManyField(
         'disease_recommendations.Disease',
         related_name='users',
         blank=True,
