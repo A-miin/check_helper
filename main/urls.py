@@ -37,6 +37,7 @@ schema_view = get_schema_view(
 
 api_v1 = [
     path('accounts/', include('accounts.urls')),
+    path('disease_recommendations/', include('disease_recommendations.urls'))
 ]
 
 urlpatterns = [

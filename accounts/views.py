@@ -4,7 +4,7 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 from rest_framework.views import APIView
 
 from accounts.serializers import UserSerializer, AddDeleteDiseaseUserSerializer
-from rest_framework import status
+from rest_framework import status, permissions
 from rest_framework.response import Response
 
 
@@ -35,16 +35,18 @@ class RetrieveUpdateDestroyUsersAPIView(RetrieveUpdateDestroyAPIView):
 
 
 class AddDeleteDiseaseAPIView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+
     def post(self, request, *args, **kwargs):
         serializer = AddDeleteDiseaseUserSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = request.user
         user.diseases.add(*serializer.validated_data['ids'])
-        return Response({'message': _('Болезни добавлены')}, status=200)
+        return Response({'detail': _('Болезни добавлены')}, status=200)
 
     def delete(self, request, *args, **kwargs):
         serializer = AddDeleteDiseaseUserSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = request.user
         user.diseases.remove(*serializer.validated_data['ids'])
-        return Response({'message': _('Болезни удалены')}, status=204)
+        return Response({'detail': _('Болезни удалены')}, status=204)
