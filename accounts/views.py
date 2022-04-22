@@ -1,5 +1,8 @@
 from django.contrib.auth import get_user_model
+from django.utils.decorators import method_decorator
 from django.utils.translation import gettext_lazy as _
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from rest_framework.views import APIView
 
@@ -34,6 +37,32 @@ class RetrieveUpdateDestroyUsersAPIView(RetrieveUpdateDestroyAPIView):
             return self.request.user
 
 
+@method_decorator(name='post', decorator=swagger_auto_schema(
+    operation_id=_('Add diseases to user endpoint'),
+    tags=['user'],
+    request_body=AddDeleteDiseaseUserSerializer,
+    responses={
+        status.HTTP_200_OK: openapi.Schema(
+            type=openapi.TYPE_OBJECT,
+            properties={
+                'detail': openapi.Schema(type=openapi.TYPE_STRING, default='Болезни добавлены'),
+            }
+        ),
+    }
+))
+@method_decorator(name='delete', decorator=swagger_auto_schema(
+    operation_id=_('Remove diseases from user endpoint'),
+    tags=['user'],
+    request_body=AddDeleteDiseaseUserSerializer,
+    responses={
+        status.HTTP_204_NO_CONTENT: openapi.Schema(
+            type=openapi.TYPE_OBJECT,
+            properties={
+                'detail': openapi.Schema(type=openapi.TYPE_STRING, default='Болезни добавлены'),
+            }
+        ),
+    }
+))
 class AddDeleteDiseaseAPIView(APIView):
     permission_classes = [permissions.IsAuthenticated]
 
