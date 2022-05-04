@@ -1,0 +1,10 @@
+DEBUG=true_or_false
+POSTGRES_DB=your_db_name
+POSTGRES_USER=your_db_user
+POSTGRES_PASSWORD=you_db_password
+POSTGRES_HOST=your_db_host(localhost)
+POSTGRES_PORT=your_db_port(5432?)
+ALLOWED_HOSTS=your_hosts
+REFRESH_TOKEN_LIFETIME=days
+ACCESS_TOKEN_LIFETIME=days
+SECRET_KEY=SECRET_KEY
