@@ -4,6 +4,7 @@ from accounts.models import User
 from django.contrib.auth.hashers import make_password
 import django.contrib.auth.password_validation as validators
 from disease_recommendations.models import Disease
+from phonenumber_field.serializerfields import PhoneNumberField
 
 
 class UserDiseasesSerializer(serializers.ModelSerializer):
@@ -18,7 +19,8 @@ class UserDiseasesSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
-    diseases = UserDiseasesSerializer(many=True)
+    diseases = UserDiseasesSerializer(many=True, read_only=True)
+    phone_number = PhoneNumberField(read_only=True)
 
     class Meta:
         model = get_user_model()
