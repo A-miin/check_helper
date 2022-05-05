@@ -9,10 +9,10 @@ class ProductCategory(models.Model):
         null=True,
         max_length=128,
     )
-    photo = models.ImageField(
-        verbose_name=_('Фото'),
-        upload_to='product_category',
+    photo_link = models.URLField(
+        verbose_name=_('Ссылка на фотографию'),
         blank=True,
+        null=True,
     )
 
     class Meta:
@@ -35,21 +35,22 @@ class Product(models.Model):
         verbose_name=_('Название'),
         max_length=256,
     )
-    photo = models.ImageField(
-        verbose_name=_('Фото'),
-        upload_to='product',
+    photo_link = models.URLField(
+        verbose_name=_('Ссылка на фотографию'),
         blank=True,
+        null=True,
     )
     qr = models.IntegerField(
         verbose_name=_('QR код'),
         blank=True,
+        null=True,
     )
     description = models.CharField(
         verbose_name=_('Описание'),
         max_length=1024,
         blank=True,
     )
-    price = models.PositiveIntegerField(
+    price = models.FloatField(
         verbose_name=_('Средняя цена'),
         default=0,
     )
