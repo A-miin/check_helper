@@ -52,4 +52,3 @@ def scrap_products():
         for product in products:
             create_product(product, category_obj)
 
-scrap_products()

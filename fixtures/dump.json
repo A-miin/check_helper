@@ -1,0 +1,5032 @@
+[
+{
+  "model": "products.productcategory",
+  "pk": 84,
+  "fields": {
+    "name": "Мясо, птица, рыба",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ebe/300_160_140cd750bba9870f18aada2478b24840a/ebe7ccbceaa72729fc37fd70378e4f4b.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 85,
+  "fields": {
+    "name": "Овощи, фрукты, орехи, зелень",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/a00/300_160_140cd750bba9870f18aada2478b24840a/a0030de51773083d295d3c3f053c315e.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 86,
+  "fields": {
+    "name": "Хлеб, хлебобулочные изделия",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fd7/300_160_140cd750bba9870f18aada2478b24840a/fd7bf053e281f6c8b85473f1826da078.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 87,
+  "fields": {
+    "name": "Напитки",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/9bd/300_160_140cd750bba9870f18aada2478b24840a/9bd038470e9f4621066488473712ee42.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 88,
+  "fields": {
+    "name": "Бакалея",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/62c/300_160_140cd750bba9870f18aada2478b24840a/62c400cdbf2f752125056cd61f494b29.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 89,
+  "fields": {
+    "name": "Чай, кофе, какао, кисель",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/909/300_160_140cd750bba9870f18aada2478b24840a/9091f7e0358856a254b7f68fc263f763.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 90,
+  "fields": {
+    "name": "Здоровое питание",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/493/300_160_140cd750bba9870f18aada2478b24840a/49357e66ab194b228ebc0b8fe60feb8b.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 91,
+  "fields": {
+    "name": "Кондитерские изделия",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/cd3/300_160_140cd750bba9870f18aada2478b24840a/cd381a1721d17d88e67c33ccb15f0242.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 92,
+  "fields": {
+    "name": "Кулинария",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c03/300_160_140cd750bba9870f18aada2478b24840a/c03120bbc40ba054647866dcc3b57a42.jpg"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 93,
+  "fields": {
+    "name": "Колбасы, сосиски, деликатесы",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/adc/300_160_140cd750bba9870f18aada2478b24840a/adc62f59e7fcc5cced9c866bcf137f2f.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 94,
+  "fields": {
+    "name": "Замороженные полуфабрикаты",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e76/300_160_140cd750bba9870f18aada2478b24840a/e763f5d5f3bb1cef30ce29de90b70b88.png"
+  }
+},
+{
+  "model": "products.productcategory",
+  "pk": 95,
+  "fields": {
+    "name": "Молочные продукты, яйца",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f59/300_160_140cd750bba9870f18aada2478b24840a/f59dbb37d47ab87561ebafa63b3f0c7e.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1609,
+  "fields": {
+    "uuid": "edeb82e0-34e2-4440-8a56-2872c9820aa6",
+    "name": "Голень куриная охл вес ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/951/198_208_140cd750bba9870f18aada2478b24840a/9511d1634a1cecf27bbd8b9175deb572.png",
+    "qr": null,
+    "description": "",
+    "price": 389.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1610,
+  "fields": {
+    "uuid": "2a7d74d0-eb21-4f44-b5a1-d8cc39d06594",
+    "name": "Икра Дары Моря красная искусственная 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/710/198_208_140cd750bba9870f18aada2478b24840a/710cbf4c8dd43aa856252fa5fca983e5.png",
+    "qr": null,
+    "description": "",
+    "price": 130.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1611,
+  "fields": {
+    "uuid": "be5fa9c8-23d7-469d-a4dd-e3e50138a26e",
+    "name": "Икра Дары Моря черная искусственная 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/04c/198_208_140cd750bba9870f18aada2478b24840a/04c7ff510ff94c8007ada4a36536ef61.png",
+    "qr": null,
+    "description": "",
+    "price": 130.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1612,
+  "fields": {
+    "uuid": "6c41ec47-41e1-4441-9b5b-af864f6dba03",
+    "name": "Икра Европром Русское Чудо лососевая искусственная 120г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/29b/198_208_140cd750bba9870f18aada2478b24840a/29b6fbf700a6aba10a6b4f5ad3f8cb01.png",
+    "qr": null,
+    "description": "",
+    "price": 272.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1613,
+  "fields": {
+    "uuid": "d4c8c2b9-5beb-4d1c-b2e7-25777d890291",
+    "name": "Икра Европром Сказка имит.осетровая из морс.водрослей 450г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/5a8/198_208_140cd750bba9870f18aada2478b24840a/5a8edb95c03bb1b1ac3daa7fbf6121e6.png",
+    "qr": null,
+    "description": "",
+    "price": 181.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1614,
+  "fields": {
+    "uuid": "22c8e664-bee0-4bd3-b784-9519c95ae785",
+    "name": "Икра Европром Сказка имитированная осетровая с кремом 200г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fa4/198_208_140cd750bba9870f18aada2478b24840a/fa40f571619a8c535fd613ea51ea657d.png",
+    "qr": null,
+    "description": "",
+    "price": 98.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1615,
+  "fields": {
+    "uuid": "8fdd80d0-8020-4d02-bbd7-1cd2c8ae7fad",
+    "name": "Икра Европром царская особая лосось 120г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7cd/198_208_140cd750bba9870f18aada2478b24840a/7cd755d39c20a0c6ec871e457fc3a902.png",
+    "qr": null,
+    "description": "",
+    "price": 181.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1616,
+  "fields": {
+    "uuid": "16cb0a8c-7942-4c8b-9626-119bc4077fe0",
+    "name": "Икра Лунское море из осетровых рыб слабосоленая имитированная 200г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/437/198_208_140cd750bba9870f18aada2478b24840a/437ab4326492c8397fb48e08914d60d4.png",
+    "qr": null,
+    "description": "",
+    "price": 95.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1617,
+  "fields": {
+    "uuid": "e316273d-57f8-497e-bd6d-2e9f4a6bd52e",
+    "name": "Икра Обкомовская лососевая 120г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f00/198_208_140cd750bba9870f18aada2478b24840a/f00c3cabdbe5275536487ff0808fad50.png",
+    "qr": null,
+    "description": "",
+    "price": 1429.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1618,
+  "fields": {
+    "uuid": "cf3a8620-b459-4ead-8878-daf9841e2976",
+    "name": "Икра Обкомовская лососевая 60г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/655/198_208_140cd750bba9870f18aada2478b24840a/6559730558c5e2b222aac67ed7161ca0.png",
+    "qr": null,
+    "description": "",
+    "price": 774.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1619,
+  "fields": {
+    "uuid": "472cd69d-41a9-4a86-8ee1-44ef65963e46",
+    "name": "Икра форели Рыбный день малосольная 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/404/198_208_140cd750bba9870f18aada2478b24840a/4045c43eacd60d9949e14fa38caf3d9c.png",
+    "qr": null,
+    "description": "",
+    "price": 433.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1620,
+  "fields": {
+    "uuid": "9a73ba8c-02e2-4a86-9df6-768e81f68a0f",
+    "name": "Икра царская осетровая иск 220г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/2af/198_208_140cd750bba9870f18aada2478b24840a/2afe5ede270c3f4249de39e434310206.png",
+    "qr": null,
+    "description": "",
+    "price": 181.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1621,
+  "fields": {
+    "uuid": "3319d79c-9cfb-4011-a28d-a3df95d02808",
+    "name": "Крабовые палочки Советуем 190г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/328/198_208_140cd750bba9870f18aada2478b24840a/32834ec43e7342140e6433fa2d70b1e7.png",
+    "qr": null,
+    "description": "",
+    "price": 65.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1622,
+  "fields": {
+    "uuid": "fb787fca-6ac7-4081-be23-c5bb9419e0d3",
+    "name": "Крыло куриное охл вес ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/acd/198_208_140cd750bba9870f18aada2478b24840a/acdd6699f0d1d484be1c32ee023c0b43.png",
+    "qr": null,
+    "description": "",
+    "price": 447.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1623,
+  "fields": {
+    "uuid": "fd93463f-1142-4d9a-9c50-f2dcb3d79d4e",
+    "name": "Куры Токмок охл вес ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ac5/198_208_140cd750bba9870f18aada2478b24840a/ac5e8cb720537fb933af86060005f54b.png",
+    "qr": null,
+    "description": "",
+    "price": 328.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1624,
+  "fields": {
+    "uuid": "5b0e76d6-3fd8-486f-9120-f1b976ebf13b",
+    "name": "Мясо баранина без костей вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/870/198_208_140cd750bba9870f18aada2478b24840a/870f321a903150daa535927373d7999b.png",
+    "qr": null,
+    "description": "",
+    "price": 555.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1625,
+  "fields": {
+    "uuid": "36365d5b-ccab-4c80-a544-0d853128219a",
+    "name": "Мясо баранина лопаточная часть вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/12a/198_208_140cd750bba9870f18aada2478b24840a/12a79e4734e42a75b3ad87f33dc89f06.png",
+    "qr": null,
+    "description": "",
+    "price": 474.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1626,
+  "fields": {
+    "uuid": "2efc9486-5905-4691-94a8-7431a61ad570",
+    "name": "Мясо баранина ребра вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/6cc/198_208_140cd750bba9870f18aada2478b24840a/6cc5d05209ca12df9371a54d4c7e526a.png",
+    "qr": null,
+    "description": "",
+    "price": 440.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1627,
+  "fields": {
+    "uuid": "792980a8-c421-4f4d-88ff-97cb998190a9",
+    "name": "Мясо говядина голень без костей",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e1a/198_208_140cd750bba9870f18aada2478b24840a/e1a0e220f2983d86237e07ba00c32c50.png",
+    "qr": null,
+    "description": "",
+    "price": 535.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1628,
+  "fields": {
+    "uuid": "213e57e0-7c71-455a-8173-bdc50353f443",
+    "name": "Мясо говядина грудинка",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/bf6/198_208_140cd750bba9870f18aada2478b24840a/bf630ea55c13742a018a4d83251482e2.png",
+    "qr": null,
+    "description": "",
+    "price": 449.0,
+    "category": 84
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1629,
+  "fields": {
+    "uuid": "f166c567-3a04-42c6-bf81-c43e53a4248c",
+    "name": "Абрикос",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/d06/198_208_140cd750bba9870f18aada2478b24840a/d06dfd0d4cadf17520fb4b9acced1de9.png",
+    "qr": null,
+    "description": "",
+    "price": 402.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1630,
+  "fields": {
+    "uuid": "573391d8-5929-4719-9b89-500e7683e6f6",
+    "name": "Ананас",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/6f8/198_208_140cd750bba9870f18aada2478b24840a/6f889559cca6827243463232da8946ea.png",
+    "qr": null,
+    "description": "",
+    "price": 210.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1631,
+  "fields": {
+    "uuid": "8ccd6f8c-054b-456e-adc2-c356765211f0",
+    "name": "Апельсины",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e96/198_208_140cd750bba9870f18aada2478b24840a/e96f78663d2c2bba16fb1adbf926e169.png",
+    "qr": null,
+    "description": "",
+    "price": 136.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1632,
+  "fields": {
+    "uuid": "3a41c433-4406-4edc-a068-776efbcc07eb",
+    "name": "Арбуз",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/677/198_208_140cd750bba9870f18aada2478b24840a/677739262d9949599206d572d4ddc7d6.png",
+    "qr": null,
+    "description": "",
+    "price": 124.39,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1633,
+  "fields": {
+    "uuid": "a3abba24-95fd-4624-bac6-17e4be73fcfb",
+    "name": "Ассорти Mike спорт микс орехи/изюм 50г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ab0/198_208_140cd750bba9870f18aada2478b24840a/ab037c3afd7cab2568d4548324fa6a4c.png",
+    "qr": null,
+    "description": "",
+    "price": 41.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1634,
+  "fields": {
+    "uuid": "8e919eb6-91a3-4708-937a-7b753ff351e3",
+    "name": "Бананы высший сорт",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/6d1/198_208_140cd750bba9870f18aada2478b24840a/6d189a36ff6fa217ac0e54aac0b54d0f.png",
+    "qr": null,
+    "description": "",
+    "price": 137.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1635,
+  "fields": {
+    "uuid": "c324b44f-defc-4546-9549-935bd13ad75b",
+    "name": "Бобы жарен вес ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e10/198_208_140cd750bba9870f18aada2478b24840a/e10621b94abc649de9e4084755280f45.png",
+    "qr": null,
+    "description": "",
+    "price": 348.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1636,
+  "fields": {
+    "uuid": "29f286c1-96d7-4040-abf8-78a2363f2824",
+    "name": "Брусника замороженная 200г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/9d2/198_208_140cd750bba9870f18aada2478b24840a/9d263fa527bf40e2c96429f4ac4c0afe.png",
+    "qr": null,
+    "description": "",
+    "price": 184.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1637,
+  "fields": {
+    "uuid": "7f7ce5e9-1950-4f0f-bc25-e118cf587e4f",
+    "name": "Виноград Аргентина красный",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/52d/198_208_140cd750bba9870f18aada2478b24840a/52d6fd645fc3237d8d70709eb67891b8.png",
+    "qr": null,
+    "description": "",
+    "price": 526.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1638,
+  "fields": {
+    "uuid": "e455f037-efa7-48b1-a156-5d66541078b0",
+    "name": "Голубика замороженная 200г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/90e/198_208_140cd750bba9870f18aada2478b24840a/90efe48a0a9b4dc63ec52de805e33cbe.png",
+    "qr": null,
+    "description": "",
+    "price": 184.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1639,
+  "fields": {
+    "uuid": "783cef6b-3391-4e29-a411-1edc82b83fbc",
+    "name": "Горох в сахаре вес",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 237.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1640,
+  "fields": {
+    "uuid": "c13dd56e-346c-46ec-aeb2-07f971290ef2",
+    "name": "Грейпфрут",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/250/198_208_140cd750bba9870f18aada2478b24840a/2509c7bc544d88f044355a52e9d5666d.png",
+    "qr": null,
+    "description": "",
+    "price": 178.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1641,
+  "fields": {
+    "uuid": "9ee01432-1bb2-4b58-8875-dbc16919a8f8",
+    "name": "Груши",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7bc/198_208_140cd750bba9870f18aada2478b24840a/7bc93e73809b0d4376ba550188cb6f82.png",
+    "qr": null,
+    "description": "",
+    "price": 171.99,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1642,
+  "fields": {
+    "uuid": "5101d7b2-b3f2-4903-8495-de103303034c",
+    "name": "Дыня",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/2eb/198_208_140cd750bba9870f18aada2478b24840a/2eb7f5b90690b24b4a3b61c164edbe8d.png",
+    "qr": null,
+    "description": "",
+    "price": 141.99,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1643,
+  "fields": {
+    "uuid": "506e6394-56e3-42bc-ac80-59e428b75661",
+    "name": "Имбирь корень",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/958/198_208_140cd750bba9870f18aada2478b24840a/958aad4cbe1b161fa2bbdac91194544e.png",
+    "qr": null,
+    "description": "",
+    "price": 263.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1644,
+  "fields": {
+    "uuid": "f6ba537f-4f8e-494e-a213-ee4073025016",
+    "name": "Капуста Брокколи",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/73b/198_208_140cd750bba9870f18aada2478b24840a/73b4ee5c5ad1f98836807569559d1615.png",
+    "qr": null,
+    "description": "",
+    "price": 333.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1645,
+  "fields": {
+    "uuid": "fdde756c-30c8-48b7-946c-cc5cb093bb18",
+    "name": "Капуста краснокочанная",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/3e3/198_208_140cd750bba9870f18aada2478b24840a/3e39fe809744020880ca6eec38d98f89.png",
+    "qr": null,
+    "description": "",
+    "price": 71.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1646,
+  "fields": {
+    "uuid": "0dd03a96-daa4-4a78-9c76-f54017b85787",
+    "name": "Капуста молодая",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/4d7/198_208_140cd750bba9870f18aada2478b24840a/4d7ac2d3852d913ea0b10cd83d310ff0.png",
+    "qr": null,
+    "description": "",
+    "price": 73.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1647,
+  "fields": {
+    "uuid": "926986b9-4b88-439b-9514-f082e0503097",
+    "name": "Капуста Чим-Чи",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/37f/198_208_140cd750bba9870f18aada2478b24840a/37fde8d05b726336e3a752bb9ffbca69.png",
+    "qr": null,
+    "description": "",
+    "price": 50.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1648,
+  "fields": {
+    "uuid": "8f284109-41ad-438f-b141-125fe731affa",
+    "name": "Картофель молодой",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c88/198_208_140cd750bba9870f18aada2478b24840a/c88529ea8812b5c4e22833e71f598d60.png",
+    "qr": null,
+    "description": "",
+    "price": 101.0,
+    "category": 85
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1649,
+  "fields": {
+    "uuid": "678e40ef-4067-4a3e-9bcc-33052a009ac5",
+    "name": "Багет Парижский аромат 270 г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/59a/198_208_140cd750bba9870f18aada2478b24840a/59a6e9014ad9d99ae924d3312243e4f1.png",
+    "qr": null,
+    "description": "",
+    "price": 45.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1650,
+  "fields": {
+    "uuid": "c212584a-ad04-43e2-8550-b7b61d4bab9d",
+    "name": "Багет Французский 280г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7ac/198_208_140cd750bba9870f18aada2478b24840a/7ac8d3e4bcd672dc2e5b7573318d7a1c.png",
+    "qr": null,
+    "description": "",
+    "price": 25.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1651,
+  "fields": {
+    "uuid": "74696310-f4bd-4e23-89c9-e6ca0a9743d0",
+    "name": "Батон  Золотой колос Нарезной 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/350/198_208_140cd750bba9870f18aada2478b24840a/350ff6f02243cb1e0c5caf85f750b34c.png",
+    "qr": null,
+    "description": "",
+    "price": 64.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1652,
+  "fields": {
+    "uuid": "d1a19cd6-7cd0-44bf-b6db-19375aaa0f8d",
+    "name": "Батон Балтийский 385 г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/cdf/198_208_140cd750bba9870f18aada2478b24840a/cdf317c01d1fc51d9f2351e2a0adacbf.png",
+    "qr": null,
+    "description": "",
+    "price": 37.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1653,
+  "fields": {
+    "uuid": "db61625a-e218-4f90-9177-9ac17837d8b8",
+    "name": "Батон Диетический 400г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/af3/198_208_140cd750bba9870f18aada2478b24840a/af3262e94247c817bf9db261acc44c56.png",
+    "qr": null,
+    "description": "",
+    "price": 61.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1654,
+  "fields": {
+    "uuid": "554a1ffa-1180-453c-b434-c06a629c035f",
+    "name": "Батон Золотой колос Рижский 550г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/9aa/198_208_140cd750bba9870f18aada2478b24840a/9aa5987cdecbee65a39545884ed586d5.png",
+    "qr": null,
+    "description": "",
+    "price": 66.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1655,
+  "fields": {
+    "uuid": "73825a61-b033-4035-be64-8ea95571f3c6",
+    "name": "Батон Золотой колос Токчулук 550г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/bff/198_208_140cd750bba9870f18aada2478b24840a/bffde6b552905b0568d8e5b6a0dd3c95.png",
+    "qr": null,
+    "description": "",
+    "price": 67.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1656,
+  "fields": {
+    "uuid": "aa29d8ba-4a14-4b72-a5b8-088b5ae1a745",
+    "name": "Батон Золтотой колос Токчулук 225г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/bd9/198_208_140cd750bba9870f18aada2478b24840a/bd9eb290b2922f1a6e2f9dd7ebd0403f.png",
+    "qr": null,
+    "description": "",
+    "price": 50.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1657,
+  "fields": {
+    "uuid": "08025dd5-dae8-431a-806d-6b62b632790a",
+    "name": "Батон Кремлевский 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/80f/198_208_140cd750bba9870f18aada2478b24840a/80f865425659fa8863e5802e60c738c9.png",
+    "qr": null,
+    "description": "",
+    "price": 68.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1658,
+  "fields": {
+    "uuid": "7c466683-7817-48b3-b910-653e79d7a7f4",
+    "name": "Батон пшеничный 300г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/d60/198_208_140cd750bba9870f18aada2478b24840a/d60bcc84fa52accacccb41890036b316.png",
+    "qr": null,
+    "description": "",
+    "price": 16.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1659,
+  "fields": {
+    "uuid": "e2713718-3297-4b60-a435-7aa73091eb92",
+    "name": "Батон Элита Отрубной 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/72e/198_208_140cd750bba9870f18aada2478b24840a/72e52318bebdb87a2d0029aa7a486cb2.png",
+    "qr": null,
+    "description": "",
+    "price": 64.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1660,
+  "fields": {
+    "uuid": "6e9b2057-083e-4c0b-8865-662e9f56ddb3",
+    "name": "Батон Элита Ржаной 600г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e96/198_208_140cd750bba9870f18aada2478b24840a/e96e07e98147c6c56052f9c311856442.png",
+    "qr": null,
+    "description": "",
+    "price": 77.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1661,
+  "fields": {
+    "uuid": "53079a25-ba5c-4452-9192-e89ca7c2eee0",
+    "name": "Булочка для сэндвичей 120г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 12.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1662,
+  "fields": {
+    "uuid": "2672ba78-fa4e-4b46-acc0-a51e8cee3467",
+    "name": "Булочка для сэндвичей 95г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/81f/198_208_140cd750bba9870f18aada2478b24840a/81ffa8490dd5c993daaeb0037ffa8fa8.png",
+    "qr": null,
+    "description": "",
+    "price": 13.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1663,
+  "fields": {
+    "uuid": "61437714-a659-4e60-a288-69d17221a92d",
+    "name": "Булочка с вареной сгущенкой 160г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ce2/198_208_140cd750bba9870f18aada2478b24840a/ce2cfad4dd4b97229db0e37525701347.png",
+    "qr": null,
+    "description": "",
+    "price": 28.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1664,
+  "fields": {
+    "uuid": "131132b7-d3fd-442b-95ca-fe2a70ddc563",
+    "name": "Булочка с курагой 90г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/8a2/198_208_140cd750bba9870f18aada2478b24840a/8a2f8819a3fb7e607ac700c09c8457d9.png",
+    "qr": null,
+    "description": "",
+    "price": 29.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1665,
+  "fields": {
+    "uuid": "a94747fb-52cf-4286-bef3-4e74c5c74800",
+    "name": "Булочка с орехами 90г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b73/198_208_140cd750bba9870f18aada2478b24840a/b7371e76dbc08e9c72ed40178aa94b65.png",
+    "qr": null,
+    "description": "",
+    "price": 35.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1666,
+  "fields": {
+    "uuid": "faacca03-d7e6-4c02-a485-ecd70464c3ea",
+    "name": "Булочка Симит 120г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/105/198_208_140cd750bba9870f18aada2478b24840a/1055d6a908cf7ff4fb33f48101e1960a.png",
+    "qr": null,
+    "description": "",
+    "price": 22.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1667,
+  "fields": {
+    "uuid": "afafd0bb-3b95-4c84-a3a6-55072c4d408f",
+    "name": "Булочка со штрейзелем 60г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/394/198_208_140cd750bba9870f18aada2478b24840a/394ede382de172824e9fb228f20195d3.png",
+    "qr": null,
+    "description": "",
+    "price": 12.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1668,
+  "fields": {
+    "uuid": "5d3a7c35-c7d9-4ef7-86b7-daff3b78aa6f",
+    "name": "Булочка Турецкая 120г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/0a2/198_208_140cd750bba9870f18aada2478b24840a/0a2fee666a8b5484906e7754cbacb494.png",
+    "qr": null,
+    "description": "",
+    "price": 18.0,
+    "category": 86
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1669,
+  "fields": {
+    "uuid": "7f165a03-7fd8-431f-881c-4edf75da04af",
+    "name": "Вода Artezian без газа 6л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b31/198_208_140cd750bba9870f18aada2478b24840a/b31f7c990a42ee146f354e3de0f28cda.png",
+    "qr": null,
+    "description": "",
+    "price": 61.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1670,
+  "fields": {
+    "uuid": "dde17f23-5484-485b-82b2-a63a59935580",
+    "name": "Вода Artezian газированная 2л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/920/198_208_140cd750bba9870f18aada2478b24840a/920130408db6b7e7cd4f005a9b35e0dc.png",
+    "qr": null,
+    "description": "",
+    "price": 32.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1671,
+  "fields": {
+    "uuid": "23d5a77e-051b-4d63-a03d-1cb11d05a0d4",
+    "name": "Вода Artezian Родник без газа 5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ae9/198_208_140cd750bba9870f18aada2478b24840a/ae9dd780112f3143d979346215bcf0ce.png",
+    "qr": null,
+    "description": "",
+    "price": 46.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1672,
+  "fields": {
+    "uuid": "48c420b1-7268-4f9d-bb75-23a54e3d219b",
+    "name": "Вода Artezian столовая без газа 2л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/627/198_208_140cd750bba9870f18aada2478b24840a/627d19deddd6a52bfee80d108d9aabba.png",
+    "qr": null,
+    "description": "",
+    "price": 32.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1673,
+  "fields": {
+    "uuid": "2cd22f89-876a-42d8-9185-aca0def1399f",
+    "name": "Вода Asu  без газа 0,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/9ed/198_208_140cd750bba9870f18aada2478b24840a/9edd748a1a11aa1b407cdc803c2df83f.png",
+    "qr": null,
+    "description": "",
+    "price": 21.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1674,
+  "fields": {
+    "uuid": "e318802e-8e4a-4d5c-bcc0-2b5db350aca4",
+    "name": "Вода Asu без газа 1,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/642/198_208_140cd750bba9870f18aada2478b24840a/642560977c7e409d7817590cb622a4bf.png",
+    "qr": null,
+    "description": "",
+    "price": 22.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1675,
+  "fields": {
+    "uuid": "7a3ab255-2fe6-47cf-b22f-0e98ec22cde6",
+    "name": "Вода Asu без газа 1л ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/563/198_208_140cd750bba9870f18aada2478b24840a/5635da5dade7c598275bc48cb35e5c16.png",
+    "qr": null,
+    "description": "",
+    "price": 27.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1676,
+  "fields": {
+    "uuid": "01f685f6-ad6b-4e6e-89a9-7d57b3ddc10d",
+    "name": "Вода Asu газированная лимон/лайм 0,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/769/198_208_140cd750bba9870f18aada2478b24840a/7690ac89eb8e82139456bc84d6d34ab4.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1677,
+  "fields": {
+    "uuid": "49745f0c-5a6e-45d6-90ed-61405b055329",
+    "name": "Вода Asu газированная лимон/лайм 1л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/cf3/198_208_140cd750bba9870f18aada2478b24840a/cf37fd91e71884c7529c9b4da3abe7d0.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1678,
+  "fields": {
+    "uuid": "06328ba4-0eb8-42d1-8c4c-edeb1fec4098",
+    "name": "Вода Asu газированная малина/ежевика 0,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/2bc/198_208_140cd750bba9870f18aada2478b24840a/2bcbdf1ebaffdcdaff694945566e6de8.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1679,
+  "fields": {
+    "uuid": "0d05aafb-66ea-41ee-8fae-85078894e0bc",
+    "name": "Вода Asu газированная малина/ежевика 1л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/398/198_208_140cd750bba9870f18aada2478b24840a/39830e8309eab09bb50ac8c004b6c0de.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1680,
+  "fields": {
+    "uuid": "de77bd88-91b5-4fc4-98c3-d5d9caad94c0",
+    "name": "Вода Asu столовая без газа 8л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fee/198_208_140cd750bba9870f18aada2478b24840a/fee4fca8409171d834402b6066aa5f4c.png",
+    "qr": null,
+    "description": "",
+    "price": 99.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1681,
+  "fields": {
+    "uuid": "75933b8c-8219-4233-8087-9e57866a7864",
+    "name": "Вода Asu столовая гранат/имбирь негазированная 0,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/8ce/198_208_140cd750bba9870f18aada2478b24840a/8ce02a46ecd830befdd28bab4e74acb0.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1682,
+  "fields": {
+    "uuid": "08424c02-0bfe-420d-8474-0117a849f1ee",
+    "name": "Вода Asu столовая гранат/имбирь негазированная 1л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e45/198_208_140cd750bba9870f18aada2478b24840a/e451320285e6f0d9078bfc4a546a5dd9.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1683,
+  "fields": {
+    "uuid": "cc92fe36-67e0-4822-9777-2599f26f10c1",
+    "name": "Вода Asu столовая лимон/лайм без газа 1,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fa3/198_208_140cd750bba9870f18aada2478b24840a/fa3f88f0d77727371db6a882b2eac3d6.png",
+    "qr": null,
+    "description": "",
+    "price": 45.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1684,
+  "fields": {
+    "uuid": "30bf3bb9-1d13-4362-8355-0ee9a4e22cb7",
+    "name": "Вода Asu столовая лимонная без газа 1л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/413/198_208_140cd750bba9870f18aada2478b24840a/41364dbb74f4acdb1790e08dcd836046.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1685,
+  "fields": {
+    "uuid": "75dfb8f1-eb72-4fb7-a8e3-019ad27915db",
+    "name": "Вода Asu столовая манго/грейпфрут без газа 0,5л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fb2/198_208_140cd750bba9870f18aada2478b24840a/fb2ed99a690ad7b5d2135ce94a8cd96d.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1686,
+  "fields": {
+    "uuid": "cd9dca76-da4d-433b-addc-650e35a69133",
+    "name": "Вода Asu столовая манго/грейпфрут без газа 1л",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/aec/198_208_140cd750bba9870f18aada2478b24840a/aecde041e076658aba7b3cf01c1ba181.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1687,
+  "fields": {
+    "uuid": "ae148bc1-284c-4f20-a251-e46ccf7ef493",
+    "name": "Вода Asu столовая мята без газа 1,5л  ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/aec/198_208_140cd750bba9870f18aada2478b24840a/aec1764404e969a7f4565996adc8321a.png",
+    "qr": null,
+    "description": "",
+    "price": 45.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1688,
+  "fields": {
+    "uuid": "08bb8d68-64b2-459f-9cab-71ebd63a92e2",
+    "name": "Вода Asu столовая Мята негазированная 0,5л ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7e1/198_208_140cd750bba9870f18aada2478b24840a/7e1c70221fc247598908679fe0fe49fa.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 87
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1689,
+  "fields": {
+    "uuid": "3a235573-cefb-4ce2-a627-dc51bfbe73e8",
+    "name": " Смесь для супа Yelli \"Азиатский\" с фасолью 250г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/4dd/198_208_140cd750bba9870f18aada2478b24840a/4dd077fd638b1b8242b087d643c763a3.png",
+    "qr": null,
+    "description": "",
+    "price": 149.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1690,
+  "fields": {
+    "uuid": "c1f0de17-2515-468f-b7b7-74edcd3046df",
+    "name": "Абрикосы Домашние сладости  в сиропе 530г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e9d/198_208_140cd750bba9870f18aada2478b24840a/e9d821a9d0f04bbcbeb00f120b8cd6da.png",
+    "qr": null,
+    "description": "",
+    "price": 144.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1691,
+  "fields": {
+    "uuid": "b61e32fe-b895-454a-ae75-e7919b1df60e",
+    "name": "Агар-Агар Перчес 7г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/975/198_208_140cd750bba9870f18aada2478b24840a/9758e1bde9c71154abf054bda10df689.png",
+    "qr": null,
+    "description": "",
+    "price": 45.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1692,
+  "fields": {
+    "uuid": "3a091960-e2e9-4a95-8fcb-c55da838b113",
+    "name": "Агар-Агар Приправыч 7г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/19f/198_208_140cd750bba9870f18aada2478b24840a/19f2126dcb78f987a0d96e04183911b0.png",
+    "qr": null,
+    "description": "",
+    "price": 39.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1693,
+  "fields": {
+    "uuid": "98d22ab6-bf55-493f-8cc0-80674b0a55dd",
+    "name": "Аджика Sonun острая 350мл",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/bdb/198_208_140cd750bba9870f18aada2478b24840a/bdbcbc4d4fd8c64e80d8c5b94c4a14a4.png",
+    "qr": null,
+    "description": "",
+    "price": 107.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1694,
+  "fields": {
+    "uuid": "8ec63ef2-9913-4c98-b62a-6dbb79f103c7",
+    "name": "Аджика Витэкс 190г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c4a/198_208_140cd750bba9870f18aada2478b24840a/c4aacf7f40d67de6059997ab6162bad4.png",
+    "qr": null,
+    "description": "",
+    "price": 51.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1695,
+  "fields": {
+    "uuid": "3b965f1c-9520-47cb-869d-6ace9ccdf4d6",
+    "name": "Аджика Дары леса 370г ст/б",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/397/198_208_140cd750bba9870f18aada2478b24840a/3976786aa1609bbe74a43241685b296c.png",
+    "qr": null,
+    "description": "",
+    "price": 125.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1696,
+  "fields": {
+    "uuid": "e205afa0-9008-4e5f-a9d7-362205fff5dc",
+    "name": "Аджика Махеев острая 140г д/п",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7a4/198_208_140cd750bba9870f18aada2478b24840a/7a463a2300df0c28fb49f725131829a9.png",
+    "qr": null,
+    "description": "",
+    "price": 55.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1697,
+  "fields": {
+    "uuid": "e9355b43-58eb-409c-afa2-4b351a16786f",
+    "name": "Аджика Русский Аппетит домашняя 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/add/198_208_140cd750bba9870f18aada2478b24840a/add19ed9b7e113fe4e58fc3b2632d425.png",
+    "qr": null,
+    "description": "",
+    "price": 108.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1698,
+  "fields": {
+    "uuid": "d5fcaa8f-7cc7-4c8e-8d59-7eee460cd0b9",
+    "name": "Аджика Сэм Маринадос острая 250г ст/б",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/62f/198_208_140cd750bba9870f18aada2478b24840a/62f881a55369ad2aef8cf87e3bf1116d.png",
+    "qr": null,
+    "description": "",
+    "price": 57.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1699,
+  "fields": {
+    "uuid": "e262d226-eeec-4e35-ba83-034bee1b3ac9",
+    "name": "Аджика Тама классич. 200г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/0d3/198_208_140cd750bba9870f18aada2478b24840a/0d35fed2687ad1989d7b779b9fa92152.png",
+    "qr": null,
+    "description": "",
+    "price": 41.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1700,
+  "fields": {
+    "uuid": "508fa89f-b268-485a-9f25-19bead4491f1",
+    "name": "Аджика Тама классическая 80г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/70b/198_208_140cd750bba9870f18aada2478b24840a/70bca96b37040b84688e0154610378c8.png",
+    "qr": null,
+    "description": "",
+    "price": 21.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1701,
+  "fields": {
+    "uuid": "87daedc3-3d6e-420a-817b-7ff833451ca2",
+    "name": "Аджика чесночная 70г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/3fb/198_208_140cd750bba9870f18aada2478b24840a/3fb7d5dc020cfc9171289b16d372db94.png",
+    "qr": null,
+    "description": "",
+    "price": 41.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1702,
+  "fields": {
+    "uuid": "316cd12e-05f9-44f3-b6dd-447f32a32616",
+    "name": "Ананасы Ferragosto консервированные кольца 565г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/a08/198_208_140cd750bba9870f18aada2478b24840a/a0878b1e23d404468ba9a13b68742476.png",
+    "qr": null,
+    "description": "",
+    "price": 199.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1703,
+  "fields": {
+    "uuid": "1f55c256-0c6e-417f-84a7-e701a312c651",
+    "name": "Ананасы Ferragosto консервированные кусочками 565г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/92b/198_208_140cd750bba9870f18aada2478b24840a/92bb50355b0802cd580885bb8868cefe.png",
+    "qr": null,
+    "description": "",
+    "price": 199.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1704,
+  "fields": {
+    "uuid": "27beed9b-63dc-490a-a9e8-dda2021bf6e9",
+    "name": "Ананасы Lorado консервированные кусочками в сиропе 580г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/946/198_208_140cd750bba9870f18aada2478b24840a/9460d0261921052d630aea7bdde7406d.png",
+    "qr": null,
+    "description": "",
+    "price": 176.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1705,
+  "fields": {
+    "uuid": "67a0eb9c-57cc-42e3-abf3-76f939f5e475",
+    "name": "Ананасы Naturella конс. кольц. 565мл ж/б",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c38/198_208_140cd750bba9870f18aada2478b24840a/c38a32533b523c80ce6c646d4c2d4009.png",
+    "qr": null,
+    "description": "",
+    "price": 173.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1706,
+  "fields": {
+    "uuid": "91c0962a-997c-4db2-9542-b78058a10504",
+    "name": "Ананасы Naturella конс. кусоч. 565мл ж/б",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7dc/198_208_140cd750bba9870f18aada2478b24840a/7dca23f4a5b8b7b986684ae5b3b9631f.png",
+    "qr": null,
+    "description": "",
+    "price": 230.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1707,
+  "fields": {
+    "uuid": "1740207c-6e1b-4979-adf0-d1a8bd044348",
+    "name": "Ананасы Главпродукт конс. кусочки 565 ж/б GL",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/a92/198_208_140cd750bba9870f18aada2478b24840a/a92bea355a020b82076b12b442f36154.png",
+    "qr": null,
+    "description": "",
+    "price": 326.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1708,
+  "fields": {
+    "uuid": "5a287fe5-fe92-469c-9cdb-efba39a62a99",
+    "name": "Ананасы Главпродукт консервированные кольца в сиропе 565  ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e17/198_208_140cd750bba9870f18aada2478b24840a/e175dcd41dd4acd411bc482f0fba8b00.png",
+    "qr": null,
+    "description": "",
+    "price": 330.0,
+    "category": 88
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1709,
+  "fields": {
+    "uuid": "59a7b750-6a10-439a-a1ae-cfb15e84c8bd",
+    "name": "Агар-Агар Перчес 7г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/975/198_208_140cd750bba9870f18aada2478b24840a/9758e1bde9c71154abf054bda10df689.png",
+    "qr": null,
+    "description": "",
+    "price": 45.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1710,
+  "fields": {
+    "uuid": "3087063b-0584-47df-9523-9b2f33701215",
+    "name": "Агар-Агар Приправыч 7г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/19f/198_208_140cd750bba9870f18aada2478b24840a/19f2126dcb78f987a0d96e04183911b0.png",
+    "qr": null,
+    "description": "",
+    "price": 39.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1711,
+  "fields": {
+    "uuid": "ced8e93a-f05f-4cf5-80a6-543f665b77c7",
+    "name": "Желатин Витэкс пищевой 10гр",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/31f/198_208_140cd750bba9870f18aada2478b24840a/31fdc147aaa6fac5a26774e33090926b.png",
+    "qr": null,
+    "description": "",
+    "price": 21.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1712,
+  "fields": {
+    "uuid": "8c162492-be2a-407a-9dc4-e46d887c78d3",
+    "name": "Желатин Приправыч пищевой 20г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/898/198_208_140cd750bba9870f18aada2478b24840a/898b81743310e0b27726ae20eb8f7e79.png",
+    "qr": null,
+    "description": "",
+    "price": 36.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1713,
+  "fields": {
+    "uuid": "355fdc30-d27d-4005-8892-9279ccb70f47",
+    "name": "Какао Kent 25г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/5dd/198_208_140cd750bba9870f18aada2478b24840a/5dd57a04b2048464f80a25fd0e019133.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1714,
+  "fields": {
+    "uuid": "ebb49e3b-f63e-42d0-b409-b2fba4ef4c11",
+    "name": "Какао Kent Puding шоколадный 50г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/853/198_208_140cd750bba9870f18aada2478b24840a/8535936c606e75099240f09b740f9512.png",
+    "qr": null,
+    "description": "",
+    "price": 30.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1715,
+  "fields": {
+    "uuid": "8b06e164-e4b8-484f-a31b-3e7f7240f54f",
+    "name": "Какао Nesquik Calci-N 13,5г сашет",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c6e/198_208_140cd750bba9870f18aada2478b24840a/c6e5b18060abb151c0c9440e19f0b33f.png",
+    "qr": null,
+    "description": "",
+    "price": 18.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1716,
+  "fields": {
+    "uuid": "13e21fa9-f486-4781-a65b-eb8a84418eab",
+    "name": "Какао Nesquik Calci-N 1кг",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c45/198_208_140cd750bba9870f18aada2478b24840a/c45dfd727191455d85d7d13816835956.png",
+    "qr": null,
+    "description": "",
+    "price": 619.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1717,
+  "fields": {
+    "uuid": "a6a9341d-6bd1-4124-a1df-63a2aaef0515",
+    "name": "Какао Nesquik Calci-N 250г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/46f/198_208_140cd750bba9870f18aada2478b24840a/46f4c2ff82a5cb42c38ef85ed635eeb6.png",
+    "qr": null,
+    "description": "",
+    "price": 224.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1718,
+  "fields": {
+    "uuid": "121aab78-27cb-42c8-9a1f-991e4390e7c1",
+    "name": "Какао Nesquik Opti-start 95г д/п",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f68/198_208_140cd750bba9870f18aada2478b24840a/f68d4451e5d6b843ddffa755c028e3e6.png",
+    "qr": null,
+    "description": "",
+    "price": 91.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1719,
+  "fields": {
+    "uuid": "b725e777-829a-452e-961b-f4e5818fc0d4",
+    "name": "Какао Nestle Российский 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7d5/198_208_140cd750bba9870f18aada2478b24840a/7d50b52f6a98f344b4c1653db60c16e5.png",
+    "qr": null,
+    "description": "",
+    "price": 91.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1720,
+  "fields": {
+    "uuid": "102e27bd-269a-40a4-b0c5-a251f3053c15",
+    "name": "Какао Доктор Вкус натуральный 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7b2/198_208_140cd750bba9870f18aada2478b24840a/7b2bd26abc19ed2fd69a29fd96d3d4af.png",
+    "qr": null,
+    "description": "",
+    "price": 21.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1721,
+  "fields": {
+    "uuid": "45847d2d-c718-496e-b5cc-83e39a04c778",
+    "name": "Какао Доктор Вкус натуральный 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e8c/198_208_140cd750bba9870f18aada2478b24840a/e8ce8623a1659c95af6ea51a4c8ea62e.png",
+    "qr": null,
+    "description": "",
+    "price": 27.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1722,
+  "fields": {
+    "uuid": "ad171a1b-d69a-47ac-8921-d08fe0405cbc",
+    "name": "Какао порошок Перчес 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f47/198_208_140cd750bba9870f18aada2478b24840a/f47ad13c87bc7cc437a54c6c683a9ba5.png",
+    "qr": null,
+    "description": "",
+    "price": 99.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1723,
+  "fields": {
+    "uuid": "e97e0e9e-6b1d-4589-9640-5863a3984346",
+    "name": "Какао порошок Татымал 100г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 84.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1724,
+  "fields": {
+    "uuid": "64e21ea2-9716-42b6-9879-ef22b00aa893",
+    "name": "Какао Приправыч 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fd3/198_208_140cd750bba9870f18aada2478b24840a/fd3726548f33009b9a49e125f1aedb31.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1725,
+  "fields": {
+    "uuid": "18525521-2be5-439f-89fb-ef9e8e556fcd",
+    "name": "Какао Рахат 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f7d/198_208_140cd750bba9870f18aada2478b24840a/f7ddae7a0f10adb8653c0e7c510e2132.png",
+    "qr": null,
+    "description": "",
+    "price": 63.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1726,
+  "fields": {
+    "uuid": "4df522e2-1cb1-46c3-a195-97ae1df0029e",
+    "name": "Кисель Приправыч вишневый 110г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/871/198_208_140cd750bba9870f18aada2478b24840a/871b2528d329fc92dd11257781d079da.png",
+    "qr": null,
+    "description": "",
+    "price": 36.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1727,
+  "fields": {
+    "uuid": "0384ac90-8221-42fa-a809-746918904119",
+    "name": "Кисель Приправыч клубничный 110г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/870/198_208_140cd750bba9870f18aada2478b24840a/870cd73d833bd4142ef3681d11f824a1.png",
+    "qr": null,
+    "description": "",
+    "price": 36.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1728,
+  "fields": {
+    "uuid": "14429451-2aee-4f52-bc6b-382e9852e305",
+    "name": "Кофе Bushido Black Katana в зернах 227г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b13/198_208_140cd750bba9870f18aada2478b24840a/b13e4035975f591924ae782206f2e4a3.png",
+    "qr": null,
+    "description": "",
+    "price": 617.0,
+    "category": 89
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1729,
+  "fields": {
+    "uuid": "13512365-ae26-49f4-b186-9388c15bb438",
+    "name": "Батончик Bombbar глазир протеин. кокосовый торт 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/2a0/198_208_140cd750bba9870f18aada2478b24840a/2a090196e87103eae11cf7dfed30f37d.png",
+    "qr": null,
+    "description": "",
+    "price": 94.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1730,
+  "fields": {
+    "uuid": "ba5a815d-9d16-4e4a-b220-274054877e25",
+    "name": "Батончик Bombbar глазир протеин. фисташк меренга 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/cfd/198_208_140cd750bba9870f18aada2478b24840a/cfd31d9f8a45479535d170c0e7955660.png",
+    "qr": null,
+    "description": "",
+    "price": 94.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1731,
+  "fields": {
+    "uuid": "21cb29f3-dc96-4eb0-884c-5b6d57c98afa",
+    "name": "Батончик Bombbar глазир протеин. фундучн пралине 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/691/198_208_140cd750bba9870f18aada2478b24840a/691b80d454f7609ea5c2197c322cb7c0.png",
+    "qr": null,
+    "description": "",
+    "price": 94.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1732,
+  "fields": {
+    "uuid": "25ac3780-7adf-4e1f-9aeb-bc7e1961586b",
+    "name": "Батончик Momobar банан 40г Шоро",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 93.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1733,
+  "fields": {
+    "uuid": "2cd4f2f8-fc09-45ce-9cdb-ee84345690b5",
+    "name": "Батончик Momobar лесные ягоды 40г Шоро",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 93.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1734,
+  "fields": {
+    "uuid": "fdd5dfa2-5f9f-4d11-8ed6-c5970f86b425",
+    "name": "Батончик Momobar миндаль 40г Шоро",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 93.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1735,
+  "fields": {
+    "uuid": "672ebcb5-0203-4305-b491-f406b7d71f24",
+    "name": "Батончик Momobar шок/арахис 40г Шоро",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 93.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1736,
+  "fields": {
+    "uuid": "1750c1c1-a16c-489d-bad4-9158a341e92c",
+    "name": "Батончик ProteinRex Low Carb протеиновый кокос 60г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f28/198_208_140cd750bba9870f18aada2478b24840a/f28a86e18dae17c6ed455b6d3f8ce02e.png",
+    "qr": null,
+    "description": "",
+    "price": 148.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1737,
+  "fields": {
+    "uuid": "7e4cc61f-6768-4294-bca0-f1b561855959",
+    "name": "Батончик ProteinRex Low Carb протеиновый малина/йогурт 60г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/27c/198_208_140cd750bba9870f18aada2478b24840a/27cf5b1fd36eda0e72dc3ac5c008034f.png",
+    "qr": null,
+    "description": "",
+    "price": 148.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1738,
+  "fields": {
+    "uuid": "22996c21-f6e7-48be-863b-5e85b1865516",
+    "name": "Батончик ProteinRex Low Carb протеиновый тирамису 60г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/793/198_208_140cd750bba9870f18aada2478b24840a/793a1b9b6b80dfd9e7f69d7b1f3f785f.png",
+    "qr": null,
+    "description": "",
+    "price": 148.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1739,
+  "fields": {
+    "uuid": "a4066613-3d0a-4ab1-9ab8-a19ddd74c9c9",
+    "name": "Батончик ProteinRex Nuts протеиновый кешью/клюква 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ecb/198_208_140cd750bba9870f18aada2478b24840a/ecb320ff62d8f8c53c7b6ede9bb15e2a.png",
+    "qr": null,
+    "description": "",
+    "price": 124.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1740,
+  "fields": {
+    "uuid": "27103a3d-c37b-4073-8cbb-e7fa1f216eff",
+    "name": "Батончик ProteinRex Nuts протеиновый миндаль/кокос 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e2a/198_208_140cd750bba9870f18aada2478b24840a/e2aa9c5bfa0585af0f60aa6821a80b29.png",
+    "qr": null,
+    "description": "",
+    "price": 124.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1741,
+  "fields": {
+    "uuid": "ef1abb72-c11c-46a7-bf5c-2e8873cdab45",
+    "name": "Батончик ProteinRex Nuts протеиновый миндаль/пекан 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/8e5/198_208_140cd750bba9870f18aada2478b24840a/8e504d361b64bfca6b92162ba528ba92.png",
+    "qr": null,
+    "description": "",
+    "price": 124.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1742,
+  "fields": {
+    "uuid": "becd2079-0a04-43e4-b00c-4116e664dc99",
+    "name": "Батончик Rusfruit фруктовый клюква/малина 30г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 18.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1743,
+  "fields": {
+    "uuid": "e1d2d236-988b-454a-a023-2154f025ccab",
+    "name": "Батончик Rusfruit фруктовый микс 30г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 26.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1744,
+  "fields": {
+    "uuid": "6ab1c691-398b-4062-a778-bbdf9e16e464",
+    "name": "Батончик Rusfruit фруктовый облепиха 30г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 26.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1745,
+  "fields": {
+    "uuid": "d996ceae-009d-4f15-92fc-a68503822048",
+    "name": "Батончик Rusfruit фруктовый черная смородина 30г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/d5c/198_208_140cd750bba9870f18aada2478b24840a/d5c27a719e67647c264a9ae8b323cadc.png",
+    "qr": null,
+    "description": "",
+    "price": 26.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1746,
+  "fields": {
+    "uuid": "5d29f4d7-9701-4e97-9daa-b14b56c97ae9",
+    "name": "Батончик Rusfruit фруктовый черника 30г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 26.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1747,
+  "fields": {
+    "uuid": "927cb21e-3d06-4441-a625-6de80f5cd79c",
+    "name": "Батончик Smart Formula Cocoa-mint б/сахара 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/6b9/198_208_140cd750bba9870f18aada2478b24840a/6b9dce93345bbd752db9489d9b2d1f8d.png",
+    "qr": null,
+    "description": "",
+    "price": 35.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1748,
+  "fields": {
+    "uuid": "39efaa73-0f9e-45dd-9738-3ce8942fb977",
+    "name": "Батончик Smart Formula Cranberry-ginger б/сахара 40г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 37.0,
+    "category": 90
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1749,
+  "fields": {
+    "uuid": "6849e38b-07b1-4d63-ad4e-668b5cd45ebe",
+    "name": "\t¶Конфеты шоколадные Merci шоколадный мусс 250г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/87f/198_208_140cd750bba9870f18aada2478b24840a/87f7f7adc2cdf7cf988719f71b0b834f.png",
+    "qr": null,
+    "description": "",
+    "price": 402.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1750,
+  "fields": {
+    "uuid": "bf2bf85d-3e52-4238-bcce-2f2209add2f4",
+    "name": "Баклава турецкая с грецкими орехами вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/a62/198_208_140cd750bba9870f18aada2478b24840a/a629511f2ebf5dcccbb9bf903f2eaec7.png",
+    "qr": null,
+    "description": "",
+    "price": 429.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1751,
+  "fields": {
+    "uuid": "297a1f3f-929d-42b3-950a-194d6a7d6b90",
+    "name": "Батончик Babyfox молочный 120г KDV",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 83.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1752,
+  "fields": {
+    "uuid": "47720997-6028-43c4-96ee-a2d55a69421d",
+    "name": "Батончик Babyfox молочный 45г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b0a/198_208_140cd750bba9870f18aada2478b24840a/b0a42ef06900005d35be36677a89a107.png",
+    "qr": null,
+    "description": "",
+    "price": 28.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1753,
+  "fields": {
+    "uuid": "2e99c429-be55-4e22-b95d-2e23f8721118",
+    "name": "Батончик BonTime нуга/пломбир 20г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/59c/198_208_140cd750bba9870f18aada2478b24840a/59c73251322d7f0df48cc198a4619763.png",
+    "qr": null,
+    "description": "",
+    "price": 7.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1754,
+  "fields": {
+    "uuid": "2d65e148-fba2-4d51-a143-73788fb44ef3",
+    "name": "Батончик Bounty 55г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/be4/198_208_140cd750bba9870f18aada2478b24840a/be4109879c0da8a0c59ba220714b6276.png",
+    "qr": null,
+    "description": "",
+    "price": 43.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1755,
+  "fields": {
+    "uuid": "9311280a-a7f9-445d-8b15-917ea4f1703e",
+    "name": "Батончик FunBanan вафельный 35г ",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 16.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1756,
+  "fields": {
+    "uuid": "3308429c-f374-4e7f-a7bd-6e0621d36d37",
+    "name": "Батончик Impulse вафельный карамель 16г ",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 8.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1757,
+  "fields": {
+    "uuid": "fd6acb9c-a10b-40b6-a754-cc523d69f537",
+    "name": "Батончик Jet's печенье в мягкой карамели 42г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/610/198_208_140cd750bba9870f18aada2478b24840a/61094485ef7d64292e78460e7e7ca21a.png",
+    "qr": null,
+    "description": "",
+    "price": 13.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1758,
+  "fields": {
+    "uuid": "95c96015-df6b-45f1-ba4d-8b7e28d8b972",
+    "name": "Батончик Kinder 4шт 50г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/915/198_208_140cd750bba9870f18aada2478b24840a/915b12af85cf0e4739a481de30e3f7aa.png",
+    "qr": null,
+    "description": "",
+    "price": 62.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1759,
+  "fields": {
+    "uuid": "881a273c-6182-4d2a-966c-5199e75059ac",
+    "name": "Батончик Kinder 8шт 100г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b1d/198_208_140cd750bba9870f18aada2478b24840a/b1df6094857f48e52fecacc2c443ddbf.png",
+    "qr": null,
+    "description": "",
+    "price": 116.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1760,
+  "fields": {
+    "uuid": "e30d2bdf-a0af-4d41-a7c8-5433c1a54575",
+    "name": "Батончик Kinder Bueno 43г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/bf3/198_208_140cd750bba9870f18aada2478b24840a/bf363a15468c2049f0f3dc074bd3f3f0.png",
+    "qr": null,
+    "description": "",
+    "price": 67.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1761,
+  "fields": {
+    "uuid": "9e49bf3b-6465-46ee-8dd3-28a1661a4c05",
+    "name": "Батончик Kinder Bueno white 39г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/4ec/198_208_140cd750bba9870f18aada2478b24840a/4ecc61e189695075dae132fb3daf6375.png",
+    "qr": null,
+    "description": "",
+    "price": 67.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1762,
+  "fields": {
+    "uuid": "5d18b339-b807-45d1-8879-8e2846994340",
+    "name": "Батончик Kinder Delice 42г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/26e/198_208_140cd750bba9870f18aada2478b24840a/26efdb068bac8c804e5a8d11f92c3765.png",
+    "qr": null,
+    "description": "",
+    "price": 49.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1763,
+  "fields": {
+    "uuid": "6511bd8c-66ab-4899-8fe2-2f440b962b52",
+    "name": "Батончик Kinder Maxi 21г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/097/198_208_140cd750bba9870f18aada2478b24840a/0971d8f742075b7bb623728b30d7ed8e.png",
+    "qr": null,
+    "description": "",
+    "price": 27.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1764,
+  "fields": {
+    "uuid": "6e1256e3-0464-4907-8eac-e6a03873aa3c",
+    "name": "Батончик Kit-Kat 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/44d/198_208_140cd750bba9870f18aada2478b24840a/44dd8ded188f0abc63556cf7cb9d0131.png",
+    "qr": null,
+    "description": "",
+    "price": 40.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1765,
+  "fields": {
+    "uuid": "10850d6d-22a3-422e-9ae8-d42f1da7c535",
+    "name": "Батончик Lindt edel/marzipan/riegel 50г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 89.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1766,
+  "fields": {
+    "uuid": "5a35bb3f-edba-4bc8-a487-beb60191662c",
+    "name": "Батончик Mars 50г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/dfe/198_208_140cd750bba9870f18aada2478b24840a/dfe099f0a39695a0bab23a0a03b184a0.png",
+    "qr": null,
+    "description": "",
+    "price": 43.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1767,
+  "fields": {
+    "uuid": "6a40e7ff-11a4-4c72-be96-c76ee6aa66ae",
+    "name": "Батончик Mars Minis 182г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/d96/198_208_140cd750bba9870f18aada2478b24840a/d96d8393d66cb71794a84b6071fe05d7.png",
+    "qr": null,
+    "description": "",
+    "price": 169.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1768,
+  "fields": {
+    "uuid": "d34ab16a-ac15-4c9e-94ee-ea818822e57f",
+    "name": "Батончик Milky way 26г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/5ce/198_208_140cd750bba9870f18aada2478b24840a/5ce49ee75bb2de48bea965527ed15175.png",
+    "qr": null,
+    "description": "",
+    "price": 23.0,
+    "category": 91
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1769,
+  "fields": {
+    "uuid": "e1500cc6-206f-43e0-80f6-97769f1fbce4",
+    "name": "Аджика Бишкек Ланч 500г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 112.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1770,
+  "fields": {
+    "uuid": "a46ff595-5fec-49c7-af20-ebf21253bc35",
+    "name": "Ассорти овощное с капустой 800г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 118.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1771,
+  "fields": {
+    "uuid": "262df99c-dbef-4d8e-9cac-93067c8e3ea9",
+    "name": "Боорсок вес ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/723/198_208_140cd750bba9870f18aada2478b24840a/723f34cc932533f3155e39fa90e2e254.png",
+    "qr": null,
+    "description": "",
+    "price": 199.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1772,
+  "fields": {
+    "uuid": "5ff23b51-6a74-4f99-98b1-6b976c2ba604",
+    "name": "Гамбургер Баатыр  с говяжей котлетой 300 гр",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/02c/198_208_140cd750bba9870f18aada2478b24840a/02c29e34b65475d27a8ed7dce9e58794.png",
+    "qr": null,
+    "description": "",
+    "price": 135.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1773,
+  "fields": {
+    "uuid": "87ca30a2-9404-4087-90e3-6582d195fcde",
+    "name": "Гарнир Гречка",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/746/198_208_140cd750bba9870f18aada2478b24840a/7464654dfbe4fb53b1a50649aec05a8c.png",
+    "qr": null,
+    "description": "",
+    "price": 199.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1774,
+  "fields": {
+    "uuid": "d494d7b4-fb31-4305-b455-039ab089216c",
+    "name": "Гарнир Картофель фри",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/2c9/198_208_140cd750bba9870f18aada2478b24840a/2c9ce293f3f94734e3e9535f5472d08e.png",
+    "qr": null,
+    "description": "",
+    "price": 449.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1775,
+  "fields": {
+    "uuid": "4318b8ab-80bb-4e9e-9db8-e906829edcd9",
+    "name": "Гарнир Крокеты",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 599.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1776,
+  "fields": {
+    "uuid": "0b952ec3-b2e5-4fb5-b3c6-2c25239024c0",
+    "name": "Гарнир Лапша на лагман вес СП   ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c71/198_208_140cd750bba9870f18aada2478b24840a/c71d0974eca26ee61b9e5661ff54ed98.png",
+    "qr": null,
+    "description": "",
+    "price": 60.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1777,
+  "fields": {
+    "uuid": "0d61dbdf-e8dd-47db-a203-42b25faa7e6f",
+    "name": "Гарнир Рис рассыпчатый",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 199.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1778,
+  "fields": {
+    "uuid": "a6c33757-2659-4e8d-b40e-a9e5b6d07998",
+    "name": "Гарнир рис с овощами",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 279.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1779,
+  "fields": {
+    "uuid": "5c68c0a5-8a53-4f66-a90e-efd000b22ae6",
+    "name": "Готовый обед Ашлям-фу 400г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e46/198_208_140cd750bba9870f18aada2478b24840a/e468b48bf3f95c94db201a2460cbe85e.png",
+    "qr": null,
+    "description": "",
+    "price": 75.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1780,
+  "fields": {
+    "uuid": "21c01583-8f03-446c-ac0e-75f7afcc4bb4",
+    "name": "Готовый обед Бифштекс с яйцом",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 749.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1781,
+  "fields": {
+    "uuid": "48ffc6ac-cf4a-439a-aaab-1057adc08099",
+    "name": "Готовый обед Бифштекс с яйцом и сложным гарниром 330г СП",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/bda/198_208_140cd750bba9870f18aada2478b24840a/bdabee3247586036c321ca94db2b5049.png",
+    "qr": null,
+    "description": "",
+    "price": 110.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1782,
+  "fields": {
+    "uuid": "7dfcd993-5ef4-4375-af76-87ec1f0f5ab3",
+    "name": "Готовый обед Борщ на мясном бульоне 400г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/dc7/198_208_140cd750bba9870f18aada2478b24840a/dc7ad6ef494b3bc03f4d1be8eae2b2a8.png",
+    "qr": null,
+    "description": "",
+    "price": 59.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1783,
+  "fields": {
+    "uuid": "b68d817d-e12d-453d-9f86-a61981135d67",
+    "name": "Готовый обед Бризоль из курицы",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e47/198_208_140cd750bba9870f18aada2478b24840a/e470a918be12107f5a5b06d5366ba86e.png",
+    "qr": null,
+    "description": "",
+    "price": 899.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1784,
+  "fields": {
+    "uuid": "c8f6af52-dce1-4ed6-845b-2391379be9b1",
+    "name": "Готовый обед Киш с курицей и грибами 130г СП",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/8c8/198_208_140cd750bba9870f18aada2478b24840a/8c87e7afa7bc910cdec6caa6f2e119f8.png",
+    "qr": null,
+    "description": "",
+    "price": 69.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1785,
+  "fields": {
+    "uuid": "8767fe57-7339-43a4-bbb2-c4cd13ca3285",
+    "name": "Готовый обед Котлеты Домашние",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/3d6/198_208_140cd750bba9870f18aada2478b24840a/3d6d080ec7e134ee87a4d0062f5f49e5.png",
+    "qr": null,
+    "description": "",
+    "price": 749.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1786,
+  "fields": {
+    "uuid": "40c35688-7fb7-47c5-8f47-ac1a81e46913",
+    "name": "Готовый обед Котлеты Пожарские куриные",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/a88/198_208_140cd750bba9870f18aada2478b24840a/a8823b90b56bf165a3d94e8630cad5a7.png",
+    "qr": null,
+    "description": "",
+    "price": 499.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1787,
+  "fields": {
+    "uuid": "cbf0d564-38be-48c2-8c69-66f4644f5ab1",
+    "name": "Готовый обед Кукси 450г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 99.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1788,
+  "fields": {
+    "uuid": "db4d6764-460b-4137-8367-51207e410dcb",
+    "name": "Готовый обед Манты с говядиной 50г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 27.0,
+    "category": 92
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1789,
+  "fields": {
+    "uuid": "fed75991-91b4-45d2-a938-1f9ca58ba0ef",
+    "name": "Деликатес Kaiser буженина вар. копч в/у вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b7d/198_208_140cd750bba9870f18aada2478b24840a/b7d19c7f8bac172030d7a62e96a868b2.png",
+    "qr": null,
+    "description": "",
+    "price": 860.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1790,
+  "fields": {
+    "uuid": "f496d18d-6ad5-42b5-ad31-707611dc82e8",
+    "name": "Деликатес Kaiser Карбонат нарезка вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e14/198_208_140cd750bba9870f18aada2478b24840a/e14e7ee27f1874e0afe72fae8eb044b7.png",
+    "qr": null,
+    "description": "",
+    "price": 934.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1791,
+  "fields": {
+    "uuid": "70d5f9f8-abdf-42b6-a719-ae28c969b0e5",
+    "name": "Деликатес Steinbrau Бекон",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e75/198_208_140cd750bba9870f18aada2478b24840a/e7594c9ebf80ec7ca3f4fcaf9da0dc29.png",
+    "qr": null,
+    "description": "",
+    "price": 690.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1792,
+  "fields": {
+    "uuid": "db692234-5c4f-4e82-8e91-31b07e95ea54",
+    "name": "Деликатес Steinbrau Ветчина сырокопченая вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f80/198_208_140cd750bba9870f18aada2478b24840a/f8009c3181bf0a86257afe2c1451c071.png",
+    "qr": null,
+    "description": "",
+    "price": 954.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1793,
+  "fields": {
+    "uuid": "3da41381-253b-4d3c-9dde-4c5955cd6393",
+    "name": "Деликатес Steinbrau Карбонад вареная копченая вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/df5/198_208_140cd750bba9870f18aada2478b24840a/df512377d68e81a7db004ef6fd201358.png",
+    "qr": null,
+    "description": "",
+    "price": 903.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1794,
+  "fields": {
+    "uuid": "5d0654aa-4c18-427c-b78b-d03b25b6b2e0",
+    "name": "Деликатес Steinbrau Окорок \"Парма\" вяленый",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/97f/198_208_140cd750bba9870f18aada2478b24840a/97f3aa3c32c9617de9d36669974ad89b.png",
+    "qr": null,
+    "description": "",
+    "price": 2065.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1795,
+  "fields": {
+    "uuid": "f054c4f4-7cdb-4ace-bb5c-1c2583c162da",
+    "name": "Деликатес Ал Халал День и Ночь вес в/у",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b29/198_208_140cd750bba9870f18aada2478b24840a/b29924bae81459691d5b18a2b4b3b618.png",
+    "qr": null,
+    "description": "",
+    "price": 844.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1796,
+  "fields": {
+    "uuid": "a19f0202-9336-410b-8a1c-24daab0c348b",
+    "name": "Деликатес Ал Халал Жая конина вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/8b8/198_208_140cd750bba9870f18aada2478b24840a/8b89d7d8df7e23adcea18793028a29cd.png",
+    "qr": null,
+    "description": "",
+    "price": 1057.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1797,
+  "fields": {
+    "uuid": "f496e770-c3fe-4e1f-9a48-55fa5dc03c29",
+    "name": "Деликатес Ал Халал курдюк копч вес в/у",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/648/198_208_140cd750bba9870f18aada2478b24840a/648c5e40e61417b991fb77906f2210ca.png",
+    "qr": null,
+    "description": "",
+    "price": 932.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1798,
+  "fields": {
+    "uuid": "c31cfe78-f361-473b-8020-3e1f96ca1750",
+    "name": "Деликатес Ал Халал куриные грудки вес в/у",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/7a7/198_208_140cd750bba9870f18aada2478b24840a/7a7d8fd59411121c546e6280d365f68f.png",
+    "qr": null,
+    "description": "",
+    "price": 699.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1799,
+  "fields": {
+    "uuid": "9f290fa5-cba0-4929-876a-a916389b912e",
+    "name": "Деликатес Ал Халал Окорочка копчёные вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/667/198_208_140cd750bba9870f18aada2478b24840a/6677d68172a871e4e0e88522df099ca6.png",
+    "qr": null,
+    "description": "",
+    "price": 490.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1800,
+  "fields": {
+    "uuid": "87238e28-7ef7-4162-8372-ff6fc6d3f88b",
+    "name": "Деликатес Ал Халал рулет кроха вес в/у",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/fb2/198_208_140cd750bba9870f18aada2478b24840a/fb2b759b8a284e063f19cd3c2aa652ab.png",
+    "qr": null,
+    "description": "",
+    "price": 683.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1801,
+  "fields": {
+    "uuid": "2ab0bbf2-aaff-4614-932c-475490729277",
+    "name": "Деликатес Ал Халал чучук вес в/у",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/c91/198_208_140cd750bba9870f18aada2478b24840a/c9198fd24d04a70a082d931ad09f3916.png",
+    "qr": null,
+    "description": "",
+    "price": 1712.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1802,
+  "fields": {
+    "uuid": "3d8e1766-93b2-4565-9fa1-8293853ac10c",
+    "name": "Деликатес Риха грудинка Белорусская в/у вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/5aa/198_208_140cd750bba9870f18aada2478b24840a/5aa371d1a602cd619ceedddd3a453d47.png",
+    "qr": null,
+    "description": "",
+    "price": 697.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1803,
+  "fields": {
+    "uuid": "bfe9ae5c-93e5-42d9-92fa-94a3e847791d",
+    "name": "Деликатес Риха Окорочка копченые вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ef1/198_208_140cd750bba9870f18aada2478b24840a/ef1699ed255631b86adad2564dded3fd.png",
+    "qr": null,
+    "description": "",
+    "price": 434.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1804,
+  "fields": {
+    "uuid": "74a47021-a5ad-41fa-80e5-fc46e4b20ef2",
+    "name": "Деликатес Риха Пастрома Куриная вес газ/у",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/213/198_208_140cd750bba9870f18aada2478b24840a/21321295bb4fd46d00e0f32a92af987c.png",
+    "qr": null,
+    "description": "",
+    "price": 1033.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1805,
+  "fields": {
+    "uuid": "15dcd5b8-bf2b-4b87-a3d5-580394272613",
+    "name": "Деликатес Риха Салями Московская нарезка вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/f11/198_208_140cd750bba9870f18aada2478b24840a/f115e23b60e1d75f8ddb5d30044cba2c.png",
+    "qr": null,
+    "description": "",
+    "price": 962.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1806,
+  "fields": {
+    "uuid": "9454633a-d543-4674-9944-23b15b838884",
+    "name": "Деликатес Риха чипсы конины вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/a06/198_208_140cd750bba9870f18aada2478b24840a/a0665f2fd2ea7de285f89f006927458f.png",
+    "qr": null,
+    "description": "",
+    "price": 1783.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1807,
+  "fields": {
+    "uuid": "46ce7b9f-b5ed-4d26-9cbf-8cf931053825",
+    "name": "Деликатес Салих Курдюк копченый вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/b88/198_208_140cd750bba9870f18aada2478b24840a/b881bf96631c87f23b14696565710306.png",
+    "qr": null,
+    "description": "",
+    "price": 738.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1808,
+  "fields": {
+    "uuid": "4b449abd-29d6-4cec-80b7-eed58d4d2ffa",
+    "name": "Деликатес Салих курин грудка вес в/у",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 591.0,
+    "category": 93
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1809,
+  "fields": {
+    "uuid": "47027e83-a0e1-451a-9398-9307b3e58c3e",
+    "name": "Бедро цыпленка бройлера An Noor халяль вес",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/724/198_208_140cd750bba9870f18aada2478b24840a/72447e590fc53b06b4d036194c693099.png",
+    "qr": null,
+    "description": "",
+    "price": 238.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1810,
+  "fields": {
+    "uuid": "a6d1fc88-b123-43fb-9037-045e87886a5b",
+    "name": "Биточки Dasmia eco product из рыбы 500г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 544.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1811,
+  "fields": {
+    "uuid": "1dfbb368-0d0c-450b-bc2e-c1cb928b5aef",
+    "name": "Блинчики Царское подворье с мясом 360г ",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 115.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1812,
+  "fields": {
+    "uuid": "7bbf0273-6f41-4005-92ce-b902d69990ce",
+    "name": "Борек Мамины рецепты с картофелем 500г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/539/198_208_140cd750bba9870f18aada2478b24840a/5392182f8d29dfb9f4cec18393e7b8fe.png",
+    "qr": null,
+    "description": "",
+    "price": 210.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1813,
+  "fields": {
+    "uuid": "d37c007c-506d-4a6f-8681-044e18d616f0",
+    "name": "Борек Мамины рецепты с курицей 500г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/984/198_208_140cd750bba9870f18aada2478b24840a/98494cdbed5bc1adac0c177e483cda07.png",
+    "qr": null,
+    "description": "",
+    "price": 276.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1814,
+  "fields": {
+    "uuid": "651f2e48-e506-4047-8e0d-0eb4867bb405",
+    "name": "Борек Мамины рецепты с сыром 500г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/3ce/198_208_140cd750bba9870f18aada2478b24840a/3ce1569f0936b2338b5426fe2d3390fd.png",
+    "qr": null,
+    "description": "",
+    "price": 302.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1815,
+  "fields": {
+    "uuid": "7ba23e08-de89-4091-bcaf-ce9e82fcfbeb",
+    "name": "Вареники 100% Фермерские картофель грибы 500г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/778/198_208_140cd750bba9870f18aada2478b24840a/77878228090fec9b95588e5190aaaea8.png",
+    "qr": null,
+    "description": "",
+    "price": 138.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1816,
+  "fields": {
+    "uuid": "c7060336-4c9c-4a8c-b2eb-5075a6c1340c",
+    "name": "Вареники 100% Фермерские с грибами 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/395/198_208_140cd750bba9870f18aada2478b24840a/3957dc53aabb3331a02898144e1ae810.png",
+    "qr": null,
+    "description": "",
+    "price": 106.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1817,
+  "fields": {
+    "uuid": "e0650bc0-1565-4f1f-9b6f-965407286d53",
+    "name": "Вареники 100% Фермерские с картофелем 500г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/197/198_208_140cd750bba9870f18aada2478b24840a/197041f70a315200d3801bc3d2f5ffc8.png",
+    "qr": null,
+    "description": "",
+    "price": 122.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1818,
+  "fields": {
+    "uuid": "d5ddad5e-858e-4e7e-8a17-5547b7599f59",
+    "name": "Вареники Avangard 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/ca0/198_208_140cd750bba9870f18aada2478b24840a/ca00b195a474a6adc8d0bf3cbf550dea.png",
+    "qr": null,
+    "description": "",
+    "price": 100.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1819,
+  "fields": {
+    "uuid": "0f53041d-0657-41be-a437-eeca2bd0b8df",
+    "name": "Вареники Kaynar с картофелем 400г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/6c2/198_208_140cd750bba9870f18aada2478b24840a/6c2ba8bd70a53dab65f56690c522b4cf.png",
+    "qr": null,
+    "description": "",
+    "price": 118.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1820,
+  "fields": {
+    "uuid": "85ed2100-41ee-40ca-8e4e-120a8c188af4",
+    "name": "Вареники Tasty картофель 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/0ac/198_208_140cd750bba9870f18aada2478b24840a/0ac78958f1e414a7129df70a57942846.png",
+    "qr": null,
+    "description": "",
+    "price": 82.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1821,
+  "fields": {
+    "uuid": "0ecd1cbd-1669-47bf-af4a-1f775a75444e",
+    "name": "Вареники Байказан  с  вишней  450 гр ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/1a1/198_208_140cd750bba9870f18aada2478b24840a/1a15addcd9983feedc8405c0bcc65270.png",
+    "qr": null,
+    "description": "",
+    "price": 135.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1822,
+  "fields": {
+    "uuid": "19702b76-93be-4758-85b8-7534e795df48",
+    "name": "Вареники Байказан  с  творогом сладкие  450 гр ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e1b/198_208_140cd750bba9870f18aada2478b24840a/e1b4483bdc5285e68b609dc4dd806c32.png",
+    "qr": null,
+    "description": "",
+    "price": 119.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1823,
+  "fields": {
+    "uuid": "6fda3af4-93c9-4b1e-823e-f799e9e23044",
+    "name": "Вареники Байказан  с  творогом соленые  450 гр ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/2fa/198_208_140cd750bba9870f18aada2478b24840a/2fa4554429d21dfc4235e5f0e05e4e43.png",
+    "qr": null,
+    "description": "",
+    "price": 95.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1824,
+  "fields": {
+    "uuid": "cf2a5257-293f-4db5-9908-51085a15f585",
+    "name": "Вареники Байказан с картофелем и грибами 450 гр",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e2a/198_208_140cd750bba9870f18aada2478b24840a/e2a0c872de6432194159e6d0be8f37ec.png",
+    "qr": null,
+    "description": "",
+    "price": 95.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1825,
+  "fields": {
+    "uuid": "ddbe2ec7-a77f-407d-91bb-1ec816e92ce3",
+    "name": "Вареники Байказан с картошкой 450 гр",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/3f4/198_208_140cd750bba9870f18aada2478b24840a/3f4f6c3c8cd0cbde8263355ac42bc302.png",
+    "qr": null,
+    "description": "",
+    "price": 69.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1826,
+  "fields": {
+    "uuid": "b843beab-d374-44c0-8b88-ac00a9bd2d13",
+    "name": "Вареники Баркад Аппетитные с картофелем 900г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/dee/198_208_140cd750bba9870f18aada2478b24840a/dee0b49066472baf7f59f9f7ac244b07.png",
+    "qr": null,
+    "description": "",
+    "price": 147.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1827,
+  "fields": {
+    "uuid": "0c1fee47-959b-4901-8342-0ee35d6c5d7e",
+    "name": "Вареники Баркад картофель грибы 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/5a4/198_208_140cd750bba9870f18aada2478b24840a/5a4837d940ad816a406310973a61206c.png",
+    "qr": null,
+    "description": "",
+    "price": 107.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1828,
+  "fields": {
+    "uuid": "54efd1cd-2458-4395-ac69-50a66d133e76",
+    "name": "Вареники Баркад с картофелем 450г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/357/198_208_140cd750bba9870f18aada2478b24840a/35780cd7f173545d81f1b209bc731c83.png",
+    "qr": null,
+    "description": "",
+    "price": 100.0,
+    "category": 94
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1829,
+  "fields": {
+    "uuid": "0596808a-f77e-4f06-911a-48ca803c0cf0",
+    "name": "Айран Айлун Кыргызский 3,2% 900г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 97.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1830,
+  "fields": {
+    "uuid": "c449d100-dcdb-43fd-8276-61b93ec9ef01",
+    "name": "Айран Айлун полезный 3,2% 700г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 74.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1831,
+  "fields": {
+    "uuid": "381cca55-70a0-4a09-9878-d2240a2e1f6c",
+    "name": "Айран домашний Низамсут 900мл п/б",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/155/198_208_140cd750bba9870f18aada2478b24840a/155a534f090db7ec0e18e1c16f064994.png",
+    "qr": null,
+    "description": "",
+    "price": 89.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1832,
+  "fields": {
+    "uuid": "91da4b44-87d8-4ada-808b-a3669082bc57",
+    "name": "Айран Турецкий Акмаанай 4,2% 500мл",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 59.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1833,
+  "fields": {
+    "uuid": "498a7573-99b9-41a9-8d5d-d8bc20eef849",
+    "name": "Айран Турецкий Акмаанай 4,2% 900мл",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 108.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1834,
+  "fields": {
+    "uuid": "4979c884-893f-4269-b044-b6645a149ca3",
+    "name": "Айран Турецкий Байэл 3,7% 900г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/9ad/198_208_140cd750bba9870f18aada2478b24840a/9ad107afb1540ab321ccd5eda1a150a7.png",
+    "qr": null,
+    "description": "",
+    "price": 99.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1835,
+  "fields": {
+    "uuid": "dc000cbb-02b9-417d-9ebb-3437e94c101f",
+    "name": "Айран Турецкий Низам 900г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/6a4/198_208_140cd750bba9870f18aada2478b24840a/6a4f834bf33c3f54246af6365e6a16e0.png",
+    "qr": null,
+    "description": "",
+    "price": 94.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1836,
+  "fields": {
+    "uuid": "ae2d4892-d265-49ac-a116-6860bb88bc38",
+    "name": "Батончик Milka Сhoco Snack бисквит в молочном шоколаде 32г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/da1/198_208_140cd750bba9870f18aada2478b24840a/da1f3561d4e5c721d1796aad877e6a80.png",
+    "qr": null,
+    "description": "",
+    "price": 59.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1837,
+  "fields": {
+    "uuid": "9263324f-7ca8-43e2-9e05-8a78a98724d0",
+    "name": "Десерт Б.Ю.Александров чизкейк творожный с ванилью 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/798/198_208_140cd750bba9870f18aada2478b24840a/798dbd415e1f80c194bac309de89fcd2.png",
+    "qr": null,
+    "description": "",
+    "price": 93.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1838,
+  "fields": {
+    "uuid": "026e361b-1889-4f84-8104-965a62cb9b90",
+    "name": "Десерт Сыркофф глазир ваниль 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/9f5/198_208_140cd750bba9870f18aada2478b24840a/9f5bea09228ff1782ffef1742417bdb1.png",
+    "qr": null,
+    "description": "",
+    "price": 15.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1839,
+  "fields": {
+    "uuid": "cd1413db-b5d4-458d-a21a-ef12f7615bc7",
+    "name": "Десерт Сыркофф глазир клубника 40г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/1a0/198_208_140cd750bba9870f18aada2478b24840a/1a01fea157492dd1ad8d71bd026e1fba.png",
+    "qr": null,
+    "description": "",
+    "price": 15.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1840,
+  "fields": {
+    "uuid": "88eb0bdc-0535-447b-ae60-4461cdcd7afe",
+    "name": "Десерт Сыркофф глазированный сгущеное молоко 40г",
+    "photo_link": "https://globus-online.kg/bitrix/templates/profood_default/assets/img/empty_198_208.png",
+    "qr": null,
+    "description": "",
+    "price": 15.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1841,
+  "fields": {
+    "uuid": "cb1e80db-c151-4e2e-aa2b-176235351da2",
+    "name": "Закваска для био йогурта YAB430A 3г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/cd8/198_208_140cd750bba9870f18aada2478b24840a/cd86947707b6777291a00626b260e0ba.png",
+    "qr": null,
+    "description": "",
+    "price": 166.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1842,
+  "fields": {
+    "uuid": "714e1056-db5f-493b-a213-e733f2ba596c",
+    "name": "Закваска для кефира SAB440B 3г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/1ff/198_208_140cd750bba9870f18aada2478b24840a/1ffea2bc59e483b7e306b738b792c1ff.png",
+    "qr": null,
+    "description": "",
+    "price": 161.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1843,
+  "fields": {
+    "uuid": "2eb36e6c-1237-475a-9a86-56677728e184",
+    "name": "Йогурт Alpenland ананас/апельсин 2,5% 95г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/37f/198_208_140cd750bba9870f18aada2478b24840a/37fc5e82e84fe5644480cfe5190d708c.png",
+    "qr": null,
+    "description": "",
+    "price": 24.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1844,
+  "fields": {
+    "uuid": "e5039e3f-af88-424c-9630-79959c5535e1",
+    "name": "Йогурт Alpenland вишня нектарин апельсин 0,3% 95г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/901/198_208_140cd750bba9870f18aada2478b24840a/9015251031577ae104124575f05cb777.png",
+    "qr": null,
+    "description": "",
+    "price": 23.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1845,
+  "fields": {
+    "uuid": "7c844633-58ad-4b9e-a8f7-a2dc284c2b9d",
+    "name": "Йогурт Alpenland клубника персик маракуйя 0,3% 95г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/e9f/198_208_140cd750bba9870f18aada2478b24840a/e9f8fc27b1a4b337217d85cf6ed2385d.png",
+    "qr": null,
+    "description": "",
+    "price": 23.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1846,
+  "fields": {
+    "uuid": "c6ef7fbf-21eb-490e-bb7a-155691e527de",
+    "name": "Йогурт Alpenland клубника/персик/манго 2,5% 95г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/acf/198_208_140cd750bba9870f18aada2478b24840a/acf08c08d7fe5550546ac3cbf113f5df.png",
+    "qr": null,
+    "description": "",
+    "price": 24.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1847,
+  "fields": {
+    "uuid": "c66ffcc2-0012-4661-a77a-21812a5e9ab5",
+    "name": "Йогурт Alpenland лесная ягода яблоко груша 0,3% 95г ",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/313/198_208_140cd750bba9870f18aada2478b24840a/313bc3bf5b9123862ceabe855a170ea7.png",
+    "qr": null,
+    "description": "",
+    "price": 23.0,
+    "category": 95
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1848,
+  "fields": {
+    "uuid": "509b3c3e-f9d5-452f-871b-325e5ed0df41",
+    "name": "Йогурт Campina Нежный абрикос/манго 1,2% 320г",
+    "photo_link": "https://globus-online.kg/upload/resize_cache/iblock/0df/198_208_140cd750bba9870f18aada2478b24840a/0df32d49f128e738e130ab3341a7b33c.png",
+    "qr": null,
+    "description": "",
+    "price": 81.0,
+    "category": 95
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$jSsHrU9ccrqhdhEXtBK8Ws$1qCEtcz+jhOsYqJmHuQb2GycwX/C5XzuXu2kRc0BLvo=",
+    "last_login": "2022-05-05T20:34:52.164Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-04-11T15:41:30.147Z",
+    "email": "admin@admin.admin",
+    "firstname": null,
+    "lastname": null,
+    "phone_number": "",
+    "avatar": "",
+    "is_activated": false,
+    "activation_date": null,
+    "groups": [],
+    "user_permissions": [],
+    "diseases": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$O6LLuznwjVvbPXaTVxAcvH$cMjGd7bgXb6AhiW8HH1pWshiBfMJkgIunPnP56blWic=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-04-14T19:47:04.294Z",
+    "email": "tema@tema.temaa",
+    "firstname": "Te",
+    "lastname": "Tema",
+    "phone_number": "+996700123450",
+    "avatar": "",
+    "is_activated": false,
+    "activation_date": null,
+    "groups": [],
+    "user_permissions": [],
+    "diseases": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$36CZVlQsloZStMHJMxydlP$cL8sEFophRsbesL8y0QeCb1o5MIl8VlkJZ9ZfypYol0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-04-14T19:48:58.816Z",
+    "email": "user2@user2.user2",
+    "firstname": "Te",
+    "lastname": "Tema",
+    "phone_number": "+996700123450",
+    "avatar": "",
+    "is_activated": false,
+    "activation_date": null,
+    "groups": [],
+    "user_permissions": [],
+    "diseases": [
+      3,
+      4,
+      9,
+      10,
+      7
+    ]
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$qdkzPmLI0Bhoqm9hcdoeZk$V5kKx6cakgchfqXIqwB7RZVUL3hCgr2CPCba2hN+S54=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-05-04T15:40:32.477Z",
+    "email": "user1@user1.user1",
+    "firstname": null,
+    "lastname": null,
+    "phone_number": "",
+    "avatar": "",
+    "is_activated": false,
+    "activation_date": null,
+    "groups": [],
+    "user_permissions": [],
+    "diseases": []
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 1,
+  "fields": {
+    "name": "Аллергия",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 2,
+  "fields": {
+    "name": "Диабет",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 3,
+  "fields": {
+    "name": "DesaeseTag #3",
+    "description": "DiseaseTag #3 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 4,
+  "fields": {
+    "name": "DesaeseTag #4",
+    "description": "DiseaseTag #4 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 5,
+  "fields": {
+    "name": "DesaeseTag #5",
+    "description": "DiseaseTag #5 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 6,
+  "fields": {
+    "name": "DesaeseTag #6",
+    "description": "DiseaseTag #6 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 7,
+  "fields": {
+    "name": "DesaeseTag #7",
+    "description": "DiseaseTag #7 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 8,
+  "fields": {
+    "name": "DesaeseTag #8",
+    "description": "DiseaseTag #8 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 9,
+  "fields": {
+    "name": "DesaeseTag #9",
+    "description": "DiseaseTag #9 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 10,
+  "fields": {
+    "name": "DesaeseTag #10",
+    "description": "DiseaseTag #10 description"
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 11,
+  "fields": {
+    "name": "Желудок",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 12,
+  "fields": {
+    "name": "Нервная система",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 13,
+  "fields": {
+    "name": "Печень",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 14,
+  "fields": {
+    "name": "Сердце",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 15,
+  "fields": {
+    "name": "Почки",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.diseasetag",
+  "pk": 16,
+  "fields": {
+    "name": "Почки",
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 3,
+  "fields": {
+    "name": "Disease 3",
+    "description": "Disease description 3",
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 4,
+  "fields": {
+    "name": "Disease 4",
+    "description": "Disease description 4",
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 6,
+  "fields": {
+    "name": "Disease 6",
+    "description": "Disease description 6",
+    "tags": [
+      1,
+      9
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 7,
+  "fields": {
+    "name": "Disease 7",
+    "description": "Disease description 7",
+    "tags": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 8,
+  "fields": {
+    "name": "Disease 8",
+    "description": "Disease description 8",
+    "tags": [
+      9,
+      2
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 9,
+  "fields": {
+    "name": "Disease 9",
+    "description": "Disease description 9",
+    "tags": [
+      6
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 10,
+  "fields": {
+    "name": "Disease 10",
+    "description": "Disease description 10",
+    "tags": [
+      8,
+      1
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 11,
+  "fields": {
+    "name": "Язва желудка и двенадцатиперстной кишки;",
+    "description": "",
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 12,
+  "fields": {
+    "name": "Хронический и острый гастрит, колиты, энтериты, хронические энтероколиты",
+    "description": "",
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 13,
+  "fields": {
+    "name": "Болезни кишечника с диареей",
+    "description": "",
+    "tags": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 14,
+  "fields": {
+    "name": "Заболевания желчных путей и печени",
+    "description": "",
+    "tags": [
+      13
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 15,
+  "fields": {
+    "name": "Мочекаменная болезнь, подагра",
+    "description": "",
+    "tags": [
+      15
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.disease",
+  "pk": 16,
+  "fields": {
+    "name": "Ожирение",
+    "description": "",
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 5,
+  "fields": {
+    "product": 1674,
+    "disease": 3,
+    "percent": 8.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 6,
+  "fields": {
+    "product": 1707,
+    "disease": 3,
+    "percent": 74.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 7,
+  "fields": {
+    "product": 1795,
+    "disease": 3,
+    "percent": 46.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 8,
+  "fields": {
+    "product": 1680,
+    "disease": 3,
+    "percent": 86.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 9,
+  "fields": {
+    "product": 1790,
+    "disease": 3,
+    "percent": 86.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 10,
+  "fields": {
+    "product": 1740,
+    "disease": 3,
+    "percent": 0.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 11,
+  "fields": {
+    "product": 1725,
+    "disease": 3,
+    "percent": 66.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 12,
+  "fields": {
+    "product": 1792,
+    "disease": 3,
+    "percent": 35.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 13,
+  "fields": {
+    "product": 1654,
+    "disease": 3,
+    "percent": 81.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 14,
+  "fields": {
+    "product": 1773,
+    "disease": 3,
+    "percent": 40.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 15,
+  "fields": {
+    "product": 1732,
+    "disease": 4,
+    "percent": 17.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 16,
+  "fields": {
+    "product": 1620,
+    "disease": 4,
+    "percent": 51.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 17,
+  "fields": {
+    "product": 1779,
+    "disease": 4,
+    "percent": 32.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 18,
+  "fields": {
+    "product": 1673,
+    "disease": 4,
+    "percent": 49.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 19,
+  "fields": {
+    "product": 1677,
+    "disease": 4,
+    "percent": 56.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 20,
+  "fields": {
+    "product": 1683,
+    "disease": 4,
+    "percent": 32.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 21,
+  "fields": {
+    "product": 1643,
+    "disease": 4,
+    "percent": 35.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 22,
+  "fields": {
+    "product": 1647,
+    "disease": 4,
+    "percent": 10.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 23,
+  "fields": {
+    "product": 1738,
+    "disease": 4,
+    "percent": 0.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 24,
+  "fields": {
+    "product": 1762,
+    "disease": 4,
+    "percent": 39.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 25,
+  "fields": {
+    "product": 1668,
+    "disease": 6,
+    "percent": 48.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 26,
+  "fields": {
+    "product": 1720,
+    "disease": 6,
+    "percent": 95.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 27,
+  "fields": {
+    "product": 1775,
+    "disease": 6,
+    "percent": 91.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 28,
+  "fields": {
+    "product": 1678,
+    "disease": 6,
+    "percent": 70.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 29,
+  "fields": {
+    "product": 1683,
+    "disease": 6,
+    "percent": 57.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 30,
+  "fields": {
+    "product": 1674,
+    "disease": 6,
+    "percent": 2.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 31,
+  "fields": {
+    "product": 1742,
+    "disease": 6,
+    "percent": 87.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 32,
+  "fields": {
+    "product": 1822,
+    "disease": 6,
+    "percent": 67.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 33,
+  "fields": {
+    "product": 1641,
+    "disease": 6,
+    "percent": 26.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 34,
+  "fields": {
+    "product": 1810,
+    "disease": 6,
+    "percent": 83.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 35,
+  "fields": {
+    "product": 1842,
+    "disease": 7,
+    "percent": 98.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 36,
+  "fields": {
+    "product": 1823,
+    "disease": 7,
+    "percent": 39.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 37,
+  "fields": {
+    "product": 1682,
+    "disease": 7,
+    "percent": 52.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 38,
+  "fields": {
+    "product": 1765,
+    "disease": 7,
+    "percent": 45.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 39,
+  "fields": {
+    "product": 1807,
+    "disease": 7,
+    "percent": 61.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 40,
+  "fields": {
+    "product": 1742,
+    "disease": 7,
+    "percent": 80.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 41,
+  "fields": {
+    "product": 1684,
+    "disease": 7,
+    "percent": 52.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 42,
+  "fields": {
+    "product": 1676,
+    "disease": 7,
+    "percent": 10.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 43,
+  "fields": {
+    "product": 1805,
+    "disease": 7,
+    "percent": 17.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 44,
+  "fields": {
+    "product": 1658,
+    "disease": 7,
+    "percent": 79.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 45,
+  "fields": {
+    "product": 1772,
+    "disease": 8,
+    "percent": 74.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 46,
+  "fields": {
+    "product": 1704,
+    "disease": 8,
+    "percent": 99.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 47,
+  "fields": {
+    "product": 1747,
+    "disease": 8,
+    "percent": 46.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 48,
+  "fields": {
+    "product": 1762,
+    "disease": 8,
+    "percent": 80.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 49,
+  "fields": {
+    "product": 1797,
+    "disease": 8,
+    "percent": 10.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 50,
+  "fields": {
+    "product": 1810,
+    "disease": 8,
+    "percent": 66.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 51,
+  "fields": {
+    "product": 1822,
+    "disease": 8,
+    "percent": 48.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 52,
+  "fields": {
+    "product": 1846,
+    "disease": 8,
+    "percent": 4.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 53,
+  "fields": {
+    "product": 1826,
+    "disease": 8,
+    "percent": 49.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 54,
+  "fields": {
+    "product": 1775,
+    "disease": 8,
+    "percent": 87.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 55,
+  "fields": {
+    "product": 1832,
+    "disease": 9,
+    "percent": 4.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 56,
+  "fields": {
+    "product": 1832,
+    "disease": 9,
+    "percent": 24.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 57,
+  "fields": {
+    "product": 1749,
+    "disease": 9,
+    "percent": 98.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 58,
+  "fields": {
+    "product": 1733,
+    "disease": 9,
+    "percent": 14.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 59,
+  "fields": {
+    "product": 1636,
+    "disease": 9,
+    "percent": 27.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 60,
+  "fields": {
+    "product": 1680,
+    "disease": 9,
+    "percent": 99.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 61,
+  "fields": {
+    "product": 1780,
+    "disease": 9,
+    "percent": 57.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 62,
+  "fields": {
+    "product": 1704,
+    "disease": 9,
+    "percent": 40.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 63,
+  "fields": {
+    "product": 1652,
+    "disease": 9,
+    "percent": 62.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 64,
+  "fields": {
+    "product": 1646,
+    "disease": 9,
+    "percent": 70.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 65,
+  "fields": {
+    "product": 1761,
+    "disease": 10,
+    "percent": 91.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 66,
+  "fields": {
+    "product": 1622,
+    "disease": 10,
+    "percent": 27.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 67,
+  "fields": {
+    "product": 1762,
+    "disease": 10,
+    "percent": 86.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 68,
+  "fields": {
+    "product": 1647,
+    "disease": 10,
+    "percent": 43.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 69,
+  "fields": {
+    "product": 1651,
+    "disease": 10,
+    "percent": 32.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 70,
+  "fields": {
+    "product": 1822,
+    "disease": 10,
+    "percent": 7.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 71,
+  "fields": {
+    "product": 1626,
+    "disease": 10,
+    "percent": 42.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 72,
+  "fields": {
+    "product": 1780,
+    "disease": 10,
+    "percent": 21.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 73,
+  "fields": {
+    "product": 1710,
+    "disease": 10,
+    "percent": 12.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 74,
+  "fields": {
+    "product": 1661,
+    "disease": 10,
+    "percent": 55.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 75,
+  "fields": {
+    "product": 1689,
+    "disease": 11,
+    "percent": 42.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 76,
+  "fields": {
+    "product": 1751,
+    "disease": 11,
+    "percent": 48.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 77,
+  "fields": {
+    "product": 1626,
+    "disease": 11,
+    "percent": 68.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 78,
+  "fields": {
+    "product": 1687,
+    "disease": 11,
+    "percent": 26.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 79,
+  "fields": {
+    "product": 1834,
+    "disease": 11,
+    "percent": 88.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 80,
+  "fields": {
+    "product": 1777,
+    "disease": 11,
+    "percent": 91.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 81,
+  "fields": {
+    "product": 1737,
+    "disease": 11,
+    "percent": 28.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 82,
+  "fields": {
+    "product": 1758,
+    "disease": 11,
+    "percent": 85.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 83,
+  "fields": {
+    "product": 1694,
+    "disease": 11,
+    "percent": 65.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 84,
+  "fields": {
+    "product": 1720,
+    "disease": 11,
+    "percent": 3.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 85,
+  "fields": {
+    "product": 1675,
+    "disease": 12,
+    "percent": 14.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 86,
+  "fields": {
+    "product": 1805,
+    "disease": 12,
+    "percent": 21.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 87,
+  "fields": {
+    "product": 1845,
+    "disease": 12,
+    "percent": 32.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 88,
+  "fields": {
+    "product": 1715,
+    "disease": 12,
+    "percent": 90.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 89,
+  "fields": {
+    "product": 1812,
+    "disease": 12,
+    "percent": 3.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 90,
+  "fields": {
+    "product": 1757,
+    "disease": 12,
+    "percent": 77.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 91,
+  "fields": {
+    "product": 1656,
+    "disease": 12,
+    "percent": 55.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 92,
+  "fields": {
+    "product": 1847,
+    "disease": 12,
+    "percent": 37.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 93,
+  "fields": {
+    "product": 1767,
+    "disease": 12,
+    "percent": 79.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 94,
+  "fields": {
+    "product": 1709,
+    "disease": 12,
+    "percent": 33.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 95,
+  "fields": {
+    "product": 1635,
+    "disease": 13,
+    "percent": 10.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 96,
+  "fields": {
+    "product": 1754,
+    "disease": 13,
+    "percent": 79.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 97,
+  "fields": {
+    "product": 1817,
+    "disease": 13,
+    "percent": 46.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 98,
+  "fields": {
+    "product": 1650,
+    "disease": 13,
+    "percent": 96.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 99,
+  "fields": {
+    "product": 1823,
+    "disease": 13,
+    "percent": 1.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 100,
+  "fields": {
+    "product": 1843,
+    "disease": 13,
+    "percent": 42.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 101,
+  "fields": {
+    "product": 1781,
+    "disease": 13,
+    "percent": 59.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 102,
+  "fields": {
+    "product": 1827,
+    "disease": 13,
+    "percent": 85.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 103,
+  "fields": {
+    "product": 1834,
+    "disease": 13,
+    "percent": 98.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 104,
+  "fields": {
+    "product": 1741,
+    "disease": 13,
+    "percent": 100.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 105,
+  "fields": {
+    "product": 1664,
+    "disease": 14,
+    "percent": 95.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 106,
+  "fields": {
+    "product": 1627,
+    "disease": 14,
+    "percent": 54.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 107,
+  "fields": {
+    "product": 1713,
+    "disease": 14,
+    "percent": 34.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 108,
+  "fields": {
+    "product": 1739,
+    "disease": 14,
+    "percent": 43.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 109,
+  "fields": {
+    "product": 1617,
+    "disease": 14,
+    "percent": 92.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 110,
+  "fields": {
+    "product": 1615,
+    "disease": 14,
+    "percent": 63.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 111,
+  "fields": {
+    "product": 1615,
+    "disease": 14,
+    "percent": 87.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 112,
+  "fields": {
+    "product": 1716,
+    "disease": 14,
+    "percent": 98.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 113,
+  "fields": {
+    "product": 1613,
+    "disease": 14,
+    "percent": 55.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 114,
+  "fields": {
+    "product": 1719,
+    "disease": 14,
+    "percent": 15.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 115,
+  "fields": {
+    "product": 1683,
+    "disease": 15,
+    "percent": 12.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 116,
+  "fields": {
+    "product": 1684,
+    "disease": 15,
+    "percent": 30.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 117,
+  "fields": {
+    "product": 1715,
+    "disease": 15,
+    "percent": 6.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 118,
+  "fields": {
+    "product": 1770,
+    "disease": 15,
+    "percent": 21.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 119,
+  "fields": {
+    "product": 1662,
+    "disease": 15,
+    "percent": 70.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 120,
+  "fields": {
+    "product": 1669,
+    "disease": 15,
+    "percent": 27.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 121,
+  "fields": {
+    "product": 1675,
+    "disease": 15,
+    "percent": 0.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 122,
+  "fields": {
+    "product": 1846,
+    "disease": 15,
+    "percent": 91.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 123,
+  "fields": {
+    "product": 1838,
+    "disease": 15,
+    "percent": 90.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 124,
+  "fields": {
+    "product": 1715,
+    "disease": 15,
+    "percent": 51.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 125,
+  "fields": {
+    "product": 1611,
+    "disease": 16,
+    "percent": 62.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 126,
+  "fields": {
+    "product": 1667,
+    "disease": 16,
+    "percent": 66.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 127,
+  "fields": {
+    "product": 1754,
+    "disease": 16,
+    "percent": 8.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 128,
+  "fields": {
+    "product": 1810,
+    "disease": 16,
+    "percent": 56.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 129,
+  "fields": {
+    "product": 1770,
+    "disease": 16,
+    "percent": 23.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 130,
+  "fields": {
+    "product": 1714,
+    "disease": 16,
+    "percent": 12.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 131,
+  "fields": {
+    "product": 1755,
+    "disease": 16,
+    "percent": 50.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 132,
+  "fields": {
+    "product": 1801,
+    "disease": 16,
+    "percent": 80.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 133,
+  "fields": {
+    "product": 1739,
+    "disease": 16,
+    "percent": 7.0,
+    "author": null,
+    "description": ""
+  }
+},
+{
+  "model": "disease_recommendations.recommendation",
+  "pk": 134,
+  "fields": {
+    "product": 1718,
+    "disease": 16,
+    "percent": 0.0,
+    "author": null,
+    "description": ""
+  }
+}
+]
