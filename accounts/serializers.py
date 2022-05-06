@@ -3,14 +3,14 @@ from django.contrib.auth import get_user_model
 from accounts.models import User
 from django.contrib.auth.hashers import make_password
 import django.contrib.auth.password_validation as validators
-from disease_recommendations.models import Disease
+from disease_recommendations.models import Disease, Recommendation
 from phonenumber_field.serializerfields import PhoneNumberField
 
 
 class UserDiseasesSerializer(serializers.ModelSerializer):
     def get_queryset(self):
         user = self.context['request'].user
-        queryset = user.diseases.objects.all()
+        queryset = user.diseases.all()
         return queryset
 
     class Meta:
@@ -45,3 +45,9 @@ class UserSerializer(serializers.ModelSerializer):
 
 class AddDeleteDiseaseUserSerializer(serializers.Serializer):
     ids = serializers.PrimaryKeyRelatedField(many=True, queryset=Disease.objects.all())
+
+
+class RecommendationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Recommendation
+        fields = '__all__'

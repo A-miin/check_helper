@@ -3,12 +3,23 @@ from django.utils.decorators import method_decorator
 from django.utils.translation import gettext_lazy as _
 from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.generics import (
+    ListCreateAPIView,
+    RetrieveUpdateDestroyAPIView,
+    ListAPIView
+)
 from rest_framework.views import APIView
+from rest_framework import permissions
 
-from accounts.serializers import UserSerializer, AddDeleteDiseaseUserSerializer
+from accounts.serializers import (
+    UserSerializer,
+    AddDeleteDiseaseUserSerializer,
+    RecommendationSerializer,
+)
 from rest_framework import status, permissions
 from rest_framework.response import Response
+
+from disease_recommendations.models import Disease, Recommendation
 
 
 class ListCreateUsersAPIView(ListCreateAPIView):
@@ -28,6 +39,7 @@ class ListCreateUsersAPIView(ListCreateAPIView):
 class RetrieveUpdateDestroyUsersAPIView(RetrieveUpdateDestroyAPIView):
     serializer_class = UserSerializer
     queryset = get_user_model().objects.all()
+    permission_classes = [permissions.IsAuthenticated]
 
     def get_object(self):
         user = super(RetrieveUpdateDestroyUsersAPIView, self).get_object()
@@ -79,3 +91,13 @@ class AddDeleteDiseaseAPIView(APIView):
         user = request.user
         user.diseases.remove(*serializer.validated_data['ids'])
         return Response({'detail': _('Болезни удалены')}, status=204)
+
+
+class UserRecommendationsListAPIView(ListAPIView):
+    serializer_class = RecommendationSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        current_user_diseases = Disease.objects.filter(users=self.request.user)
+        queryset = Recommendation.objects.filter(disease__in=current_user_diseases)
+        return queryset

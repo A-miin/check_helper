@@ -7,6 +7,7 @@ from accounts.views import (
     ListCreateUsersAPIView,
     RetrieveUpdateDestroyUsersAPIView,
     AddDeleteDiseaseAPIView,
+    UserRecommendationsListAPIView,
 )
 
 
@@ -16,4 +17,5 @@ urlpatterns = [
     path('users/', ListCreateUsersAPIView.as_view(), name='users-list-create'),
     path('users/<int:pk>/', RetrieveUpdateDestroyUsersAPIView.as_view(), name='users-rud'),
     path('users/<int:pk>/diseases/', AddDeleteDiseaseAPIView.as_view(), name='users-disease'),
+    path('users/<int:pk>/recommendations/', UserRecommendationsListAPIView.as_view(), name='users-recommendtaions'),
 ]
