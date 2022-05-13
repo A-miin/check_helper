@@ -16,7 +16,7 @@ from rest_framework.pagination import LimitOffsetPagination, PageNumberPaginatio
 from accounts.serializers import (
     UserSerializer,
     AddDeleteDiseaseUserSerializer,
-    RecommendationSerializer,
+    RecommendationSerializer, RecsSerializer,
 )
 from rest_framework import status, permissions
 from rest_framework.response import Response
@@ -101,14 +101,15 @@ class StandardResultsSetPagination(PageNumberPagination):
     max_page_size = 25
 
 
-class UserRecommendationsListAPIView(ListAPIView):
-    serializer_class = RecommendationSerializer
+class UserRecommendationsListAPIView(APIView):
+    # serializer_class = RecsSerializer
     permission_classes = [permissions.IsAuthenticated]
-    pagination_class = StandardResultsSetPagination
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['product', 'disease']
 
-    def get_queryset(self):
-        current_user_diseases = Disease.objects.filter(users=self.request.user)
-        queryset = Recommendation.objects.filter(disease__in=current_user_diseases)
-        return queryset
+    # pagination_class = StandardResultsSetPagination
+    # filter_backends = [DjangoFilterBackend]
+    # filterset_fields = ['product', 'disease']
+    def get(self, request, *args, **kwargs):
+        serializer = RecsSerializer(data=self.request.data, context={'request': self.request})
+        serializer.is_valid(raise_exception=True)
+        # print('seriaizer=', serializer.data)
+        return Response(serializer.data)

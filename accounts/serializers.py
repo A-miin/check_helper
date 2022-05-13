@@ -1,3 +1,5 @@
+from collections import OrderedDict
+
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from accounts.models import User
@@ -5,6 +7,8 @@ from django.contrib.auth.hashers import make_password
 import django.contrib.auth.password_validation as validators
 from disease_recommendations.models import Disease, Recommendation
 from phonenumber_field.serializerfields import PhoneNumberField
+
+from products.models import Product
 
 
 class UserDiseasesSerializer(serializers.ModelSerializer):
@@ -51,3 +55,34 @@ class RecommendationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Recommendation
         fields = '__all__'
+
+class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = (
+            'id',
+            'name',
+        )
+
+
+class UserProductRecommendationSerializer(serializers.Serializer):
+    recommendations = RecommendationSerializer(many=True)
+    product = ProductSerializer()
+
+
+class RecsSerializer(serializers.Serializer):
+    data = UserProductRecommendationSerializer(many=True, read_only=True)
+
+    def validate(self, attrs):
+        attrs = []
+        user = None
+        request = self.context.get("request")
+        if request and hasattr(request, "user"):
+            user = request.user
+        user_recs = Recommendation.objects.filter(disease__users=user)
+        products = Product.objects.filter(recommendations__in=user_recs)
+        for product in products:
+            data = {"product": product, 'recommendations': user_recs.filter(product=product)}
+            attrs.append(data)
+        print('attrs = ', attrs)
+        return {"data": attrs}
