@@ -1,6 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.utils.decorators import method_decorator
 from django.utils.translation import gettext_lazy as _
+from django_filters.rest_framework import DjangoFilterBackend
 from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework.generics import (
@@ -10,6 +11,7 @@ from rest_framework.generics import (
 )
 from rest_framework.views import APIView
 from rest_framework import permissions
+from rest_framework.pagination import LimitOffsetPagination, PageNumberPagination
 
 from accounts.serializers import (
     UserSerializer,
@@ -93,9 +95,18 @@ class AddDeleteDiseaseAPIView(APIView):
         return Response({'detail': _('Болезни удалены')}, status=204)
 
 
+class StandardResultsSetPagination(PageNumberPagination):
+    page_size = 20
+    page_size_query_param = 'page_size'
+    max_page_size = 25
+
+
 class UserRecommendationsListAPIView(ListAPIView):
     serializer_class = RecommendationSerializer
     permission_classes = [permissions.IsAuthenticated]
+    pagination_class = StandardResultsSetPagination
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['product', 'disease']
 
     def get_queryset(self):
         current_user_diseases = Disease.objects.filter(users=self.request.user)

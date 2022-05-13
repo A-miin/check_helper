@@ -67,6 +67,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'phonenumber_field',
     'drf_yasg',
+    'django_filters',
 
 
 ]
@@ -171,10 +172,11 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=env.int('REFRESH_TOKEN_LIFETIME', 7)),
     'ACCESS_TOKEN_LIFETIME': timedelta(days=env.int('ACCESS_TOKEN_LIFETIME', 1)),
     'ROTATE_REFRESH_TOKENS': True,
-    'DEFAULT_FILTER_BACKENDS': (
-        'django_filters.rest_framework.DjangoFilterBackend',
-    ),
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 20,
 }
+
 
 JET_SIDE_MENU_COMPACT = True
 JET_SIDE_MENU_ITEMS = [
