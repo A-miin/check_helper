@@ -36,6 +36,7 @@ class DiseaseAdmin(admin.ModelAdmin):
     readonly_fields = ('id',)
     ordering = ('-id',)
     list_display_links = ['name']
+    filter_horizontal = ('tags',)
 
 
 class DiseaseTagAdmin(admin.ModelAdmin):
@@ -46,6 +47,7 @@ class DiseaseTagAdmin(admin.ModelAdmin):
     readonly_fields = ('id',)
     ordering = ('-id',)
     list_display_links = ['name']
+    filter_horizontal = ('diseases',)
 
     def quantity(self, obj):
         return Disease.objects.filter(tags=obj).count()
