@@ -1,6 +1,7 @@
 from rest_framework.generics import ListAPIView
 from rest_framework.pagination import PageNumberPagination
 
+from disease_recommendations.filterset import DiseaseTagFilterSet, DiseaseFilterSet
 from disease_recommendations.models import (
     Disease,
     DiseaseTag,
@@ -9,7 +10,7 @@ from disease_recommendations.models import (
 from disease_recommendations.serializers import (
     DiseaseSerializer,
     DiseaseTagSerializer,
-    RecommendationSerializer,
+    RecommendationSerializer, SimpleDiseaseTagSerializer,
 )
 from rest_framework import permissions, filters
 
@@ -44,4 +45,6 @@ class RecommendationListAPIView(ListAPIView):
     search_fields = ['product__name', 'disease__name']
     pagination_class = StandardResultsSetPagination
     filter_backends = [filters.SearchFilter]
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.AllowAny]
+    filterset_class = DiseaseFilterSet
+
