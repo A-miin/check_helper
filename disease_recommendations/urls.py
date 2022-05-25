@@ -10,3 +10,4 @@ urlpatterns = [
     path('diseasetags/', DiseaseTagListAPIView.as_view(), name='diseasetag-list'),
     path('recommendations/', RecommendationListAPIView.as_view(), name='recs-list'),
 ]
+

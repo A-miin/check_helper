@@ -42,8 +42,9 @@ class UserSerializer(serializers.ModelSerializer):
     def validate(self, attrs):
         user = User(**attrs)
         password = attrs.get('password')
-        validators.validate_password(password=password, user=user)
-        attrs['password'] = make_password(password)
+        if password:
+            validators.validate_password(password=password, user=user)
+            attrs['password'] = make_password(password)
         return super(UserSerializer, self).validate(attrs)
 
 

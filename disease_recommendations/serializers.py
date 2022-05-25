@@ -18,3 +18,9 @@ class RecommendationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Recommendation
         fields = '__all__'
+
+
+class SimpleDiseaseTagSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = DiseaseTag
+        fields = ('id', 'name',)
