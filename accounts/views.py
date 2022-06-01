@@ -1,4 +1,5 @@
 from django.contrib.auth import get_user_model
+from django.db.transaction import atomic
 from django.utils.decorators import method_decorator
 from django.utils.translation import gettext_lazy as _
 from django_filters.rest_framework import DjangoFilterBackend
@@ -79,6 +80,18 @@ class RetrieveUpdateDestroyUsersAPIView(RetrieveUpdateDestroyAPIView):
 ))
 class AddDeleteDiseaseAPIView(APIView):
     permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request, *args, **kwargs):
+        diseases = request.user.diseases.all().values_list('id', flat=True)
+        return Response(diseases, status=200)
+
+    @atomic
+    def patch(self, request, *args, **kwargs):
+        serializer = AddDeleteDiseaseUserSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        request.user.diseases.clear()
+        request.user.diseases.add(*serializer.validated_data['ids'])
+        return Response({'detail': _('Болезни изменены')}, status=200)
 
     def post(self, request, *args, **kwargs):
         serializer = AddDeleteDiseaseUserSerializer(data=request.data)
