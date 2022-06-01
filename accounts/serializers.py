@@ -23,7 +23,7 @@ class UserDiseasesSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
-    phone_number = PhoneNumberField()
+    phone_number = PhoneNumberField(required=False)
 
     class Meta:
         model = get_user_model()
