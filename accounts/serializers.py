@@ -23,8 +23,7 @@ class UserDiseasesSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
-    diseases = UserDiseasesSerializer(many=True, read_only=True)
-    phone_number = PhoneNumberField(read_only=True)
+    phone_number = PhoneNumberField()
 
     class Meta:
         model = get_user_model()
@@ -36,7 +35,6 @@ class UserSerializer(serializers.ModelSerializer):
             'phone_number',
             'avatar',
             'password',
-            'diseases',
         )
 
     def validate(self, attrs):
