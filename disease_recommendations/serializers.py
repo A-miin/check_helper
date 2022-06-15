@@ -45,10 +45,10 @@ class ProductRecommendationSerializer(serializers.ModelSerializer):\
     category = serializers.CharField(source='category.name')
 
     def get_recommendations(self, obj: Product):
-        return self.RecommendationSerializer(instance=obj.recommendations.all(), many=True).data
+        return self.RecommendationSerializer(instance=obj.pref_recommendations, many=True).data
 
     def get_verdict(self, obj: Product):
-        recommendation = obj.recommendations.all().order_by('-percent').first()
+        recommendation = obj.pref_recommendations[0] if obj.pref_recommendations else None
         return Recommendation.get_verdict(recommendation)
 
     class Meta:
