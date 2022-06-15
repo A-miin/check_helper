@@ -1,4 +1,4 @@
-from rest_framework.generics import ListAPIView
+from rest_framework.generics import ListAPIView, RetrieveAPIView, get_object_or_404
 from rest_framework.pagination import PageNumberPagination
 
 from disease_recommendations.filterset import DiseaseTagFilterSet, DiseaseFilterSet
@@ -10,9 +10,11 @@ from disease_recommendations.models import (
 from disease_recommendations.serializers import (
     DiseaseSerializer,
     DiseaseTagSerializer,
-    RecommendationSerializer, SimpleDiseaseTagSerializer,
+    RecommendationSerializer, SimpleDiseaseTagSerializer, ProductRecommendationSerializer,
 )
 from rest_framework import permissions, filters
+
+from products.models import Product
 
 
 class StandardResultsSetPagination(PageNumberPagination):
@@ -43,4 +45,16 @@ class RecommendationListAPIView(ListAPIView):
     filter_backends = [filters.SearchFilter]
     permission_classes = [permissions.AllowAny]
     filterset_class = DiseaseFilterSet
+
+
+class BarcodeRecommendationView(RetrieveAPIView):
+    permission_classes = [permissions.AllowAny]
+    queryset = Product.objects.all()
+    serializer_class = ProductRecommendationSerializer
+
+    def get_object(self):
+        print(self.kwargs.get('code'), self.kwargs)
+        return get_object_or_404(Product, uuid=self.kwargs.get('code'))
+
+
 

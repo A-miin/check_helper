@@ -78,3 +78,17 @@ class Recommendation(models.Model):
 
     def __str__(self):
         return f'{self.disease.name} x {self.product.name} = {self.percent}'
+
+    @staticmethod
+    def get_verdict(recommendation):
+        if recommendation is None:
+            return {'text': 'Рекомендаций нет', 'code': 'black'}
+        p = recommendation.percent
+        if 0 < p <= 25:
+            return {'text': 'Положительно к употреблению', 'code': 'blue'}
+        elif 25 < p <= 50:
+            return {'text': 'Умеренное употребление', 'code': 'green'}
+        elif 50 < p <= 75:
+            return {'text': 'Нежелательно к употреблению', 'code': 'yellow'}
+        else:
+            return {'text': 'Противопоказано к употреблению', 'code': 'red'}
