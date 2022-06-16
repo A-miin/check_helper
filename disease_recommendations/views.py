@@ -1,3 +1,4 @@
+from django.db.models import Prefetch
 from rest_framework.generics import ListAPIView, RetrieveAPIView, get_object_or_404
 from rest_framework.pagination import PageNumberPagination
 
@@ -52,9 +53,26 @@ class BarcodeRecommendationView(RetrieveAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductRecommendationSerializer
 
-    def get_object(self):
-        print(self.kwargs.get('code'), self.kwargs)
-        return get_object_or_404(Product, uuid=self.kwargs.get('code'))
+    def get(self, request, *args, **kwargs):
+        self.disease_ids = request.GET.get('disease_ids')
+        if self.disease_ids:
+            self.disease_ids = [int(i) for i in self.disease_ids.split(',')]
+        return super(BarcodeRecommendationView, self).get(request, *args, **kwargs)
 
+    def get_serializer_context(self):
+        context = super(BarcodeRecommendationView, self).get_serializer_context()
+        context['disease_ids'] = self.disease_ids
+        return context
+
+    def get_queryset(self):
+        qs = Product.objects.all()
+        prefetched = Recommendation.objects.all().order_by('-percent')
+        if self.disease_ids:
+            prefetched = prefetched.filter(disease__in=self.disease_ids)
+        qs = qs.prefetch_related(Prefetch('recommendations', queryset=prefetched, to_attr='pref_recommendations'))
+        return qs
+
+    def get_object(self):
+        return get_object_or_404(self.get_queryset(), uuid=self.kwargs.get('code'))
 
 
